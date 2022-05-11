@@ -1,8 +1,8 @@
 import React from "react";
 
-import { NavBar, NavBarItem } from "../styles/sections/HeaderStyles";
+import { NavBar, NavBarItem } from "../../styles/HeaderStyles";
 
-import { NavBarLinks } from "./NavBarLinks";
+import { NavBarLinks } from "../../router/NavBarLinks";
 
 function Header() {
   return (

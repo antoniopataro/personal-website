@@ -9,7 +9,7 @@ import {
   ContactInput,
   ContactTextarea,
   SubmitButton,
-} from "../styles/sections/ContactStyles.jsx";
+} from "../../styles/ContactStyles.jsx";
 
 import { useEffect } from "react";
 

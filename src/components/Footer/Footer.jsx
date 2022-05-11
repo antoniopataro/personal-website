@@ -1,11 +1,11 @@
 import React from "react";
 
-import { Body, Logo, SocialMedia } from "../styles/sections/FooterStyles.jsx";
+import { Body, Logo, SocialMedia } from "../../styles/FooterStyles.jsx";
 
-import githubIcon from "../styles/svgs/social-icons/githubIcon.svg";
-import instagramIcon from "../styles/svgs/social-icons/instagramIcon.svg";
-import linkedinIcon from "../styles/svgs/social-icons/linkedinIcon.svg";
-import twitterIcon from "../styles/svgs/social-icons/twitterIcon.svg";
+import githubIcon from "../../assets/social-icons/githubIcon.svg";
+import instagramIcon from "../../assets/social-icons/instagramIcon.svg";
+import linkedinIcon from "../../assets/social-icons/linkedinIcon.svg";
+import twitterIcon from "../../assets/social-icons/twitterIcon.svg";
 
 function Footer() {
   return (

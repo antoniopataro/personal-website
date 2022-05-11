@@ -6,17 +6,17 @@ import {
   Topic,
   Cards,
   Technologies,
-} from "../styles/sections/SkillsStyles.jsx";
+} from "../../styles/SkillsStyles.jsx";
 
-import BrushIcon from "../styles/svgs/card-icons/BrushIcon.svg";
-import DevIcon from "../styles/svgs/card-icons/DevIcon.svg";
-import ComputerIcon from "../styles/svgs/card-icons/ComputerIcon.svg";
+import BrushIcon from "../../assets/card-icons/BrushIcon.svg";
+import DevIcon from "../../assets/card-icons/DevIcon.svg";
+import ComputerIcon from "../../assets/card-icons/ComputerIcon.svg";
 
-import HTMLIcon from "../styles/svgs/technologies-icons/HTMLIcon.svg";
-import CSSIcon from "../styles/svgs/technologies-icons/CSSIcon.svg";
-import JavascriptIcon from "../styles/svgs/technologies-icons/JavascriptIcon.svg";
-import ReactJSIcon from "../styles/svgs/technologies-icons/ReactJSIcon.svg";
-import nodeJSIcon from "../styles/svgs/technologies-icons/nodeJSIcon.svg";
+import HTMLIcon from "../../assets/technologies-icons/HTMLIcon.svg";
+import CSSIcon from "../../assets/technologies-icons/CSSIcon.svg";
+import JavascriptIcon from "../../assets/technologies-icons/JavascriptIcon.svg";
+import ReactJSIcon from "../../assets/technologies-icons/ReactJSIcon.svg";
+import nodeJSIcon from "../../assets/technologies-icons/nodeJSIcon.svg";
 
 import { useEffect } from "react";
 
