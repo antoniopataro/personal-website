@@ -26,3 +26,8 @@ It's also my first React project. ⚛️
 - CSS
 - Javascript (React as Framework/Lib)
 - Figma (for Design)
+
+---
+
+Note: Contact info is currently retained on `sessionStorage`.
+Note 2: Despite it works, the stylization is a mess right now. I could, but I don't think I'm going to refactor it in a near future, because I'm into other projects at the moment.
