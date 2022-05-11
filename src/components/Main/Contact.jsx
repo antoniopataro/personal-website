@@ -1,6 +1,4 @@
-import React from "react";
-
-import { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import {
   Body,
@@ -11,48 +9,10 @@ import {
   SubmitButton,
 } from "../../styles/ContactStyles.jsx";
 
-import { useEffect } from "react";
-
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 function Contact() {
-  useEffect(() => {
-    AOS.init({ duration: 250 });
-  }, []);
-
-  function handleName(e) {
-    e.target.value.length > 0
-      ? setNameInputColor("#676cdb")
-      : setNameInputColor("#5F646E");
-
-    setName(e.target.value);
-  }
-  function handleEmail(e) {
-    e.target.value.includes("@")
-      ? setEmailInputColor("#676cdb")
-      : setEmailInputColor("#5F646E");
-
-    setEmail(e.target.value);
-  }
-  function handleMessage(e) {
-    e.target.value.length > 0
-      ? setMessageInputColor("#676cdb")
-      : setMessageInputColor("#5F646E");
-
-    setMessage(e.target.value);
-  }
-
-  function handleSubmit(e) {
-    e.preventDefault();
-
-    const userInfo = { userName: name, userEmail: email, userMessage: message };
-
-    sessionStorage.setItem("Name:", `${userInfo.userName}`);
-    sessionStorage.setItem("E-mail:", `${userInfo.userEmail}`);
-    sessionStorage.setItem("Message:", `${userInfo.userMessage}`);
-  }
-
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -60,6 +20,58 @@ function Contact() {
   const [nameInputColor, setNameInputColor] = useState("#5F646E");
   const [emailInputColor, setEmailInputColor] = useState("#5F646E");
   const [messageInputColor, setMessageInputColor] = useState("#5F646E");
+
+  const [sentStatus, setSentStatus] = useState("");
+
+  const [isButtonDisabled, setIsButtonDisabled] = useState(
+    name || email || message
+  );
+
+  useEffect(() => {
+    AOS.init({ duration: 250 });
+  }, []);
+
+  const handleName = (e) => {
+    e.target.value.length > 0
+      ? setNameInputColor("#676cdb")
+      : setNameInputColor("#5F646E");
+    setName(e.target.value);
+  };
+  const handleEmail = (e) => {
+    e.target.value.includes("@") && e.target.value.includes(".")
+      ? setEmailInputColor("#676cdb")
+      : setEmailInputColor("#5F646E");
+    setEmail(e.target.value);
+  };
+  const handleMessage = (e) => {
+    e.target.value.length > 0
+      ? setMessageInputColor("#676cdb")
+      : setMessageInputColor("#5F646E");
+    setMessage(e.target.value);
+  };
+
+  function handleSubmit(e) {
+    e.preventDefault();
+
+    if (sentStatus === "sent!") {
+      setIsButtonDisabled(true);
+      setSentStatus("you already sent a message! ;)");
+      return;
+    }
+
+    const data = { userName: name, userEmail: email, userMessage: message };
+    sessionStorage.setItem("userContact", JSON.stringify(data));
+    console.log("Data retrieved:", JSON.parse(sessionStorage.userContact));
+
+    clearInputs();
+    setSentStatus("sent!");
+  }
+
+  const clearInputs = () => {
+    setName("");
+    setEmail("");
+    setMessage("");
+  };
 
   return (
     <Body id="contact">
@@ -117,16 +129,17 @@ function Contact() {
               textcolor={messageInputColor}
             />
           </div>
-          <SubmitButton
-            disabled={!name || !email || !message}
-            type="submit"
-            form="contact-form"
-            onClick={handleSubmit}
-          >
-            <button>
+          <div id="submit-div">
+            <h4 className="purple-element">{sentStatus}</h4>
+            <SubmitButton
+              disabled={isButtonDisabled}
+              type="submit"
+              form="contact-form"
+              onClick={(e) => handleSubmit(e)}
+            >
               <h2>submit</h2>
-            </button>
-          </SubmitButton>
+            </SubmitButton>
+          </div>
         </form>
       </ContactFormContainer>
     </Body>

@@ -104,6 +104,14 @@ const ContactFormContainer = styled.div`
   @media (max-width: 768px) {
     width: 100%;
   }
+
+  #submit-div {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+  }
 `;
 
 const ContactInput = styled.input`
@@ -151,33 +159,28 @@ const ContactTextarea = styled.textarea`
   }
 `;
 
-const SubmitButton = styled.div`
+const SubmitButton = styled.button`
+  position: relative;
   display: flex;
-  justify-content: flex-end;
 
-  button {
-    position: relative;
-    display: flex;
+  width: fit-content;
+  margin-right: 30px;
 
-    width: fit-content;
-    margin-right: 30px;
+  justify-content: right;
 
-    justify-content: right;
+  border: none;
 
-    border: none;
+  background-color: transparent;
 
-    background-color: transparent;
+  color: #bfbfbf;
 
-    color: #bfbfbf;
+  cursor: pointer;
 
-    cursor: pointer;
+  transition: color linear 0.1s;
 
-    transition: color linear 0.1s;
-
-    :hover {
-      border-bottom: 2px solid #676cdb;
-      color: #fff;
-    }
+  :hover {
+    border-bottom: 2px solid #676cdb;
+    color: #fff;
   }
 `;
 
