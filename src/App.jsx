@@ -1,7 +1,4 @@
-import React, { useState, useEffect, createContext } from "react";
-
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React, { useState, createContext } from "react";
 
 import Header from "./sections/Header";
 import Introduction from "./sections/Introduction";
@@ -58,13 +55,6 @@ const light = {
 };
 
 function App() {
-  useEffect(() => {
-    AOS.init({
-      duration: 150,
-      offset: 250,
-    });
-  }, []);
-
   const [theme, setTheme] = useState(dark);
 
   function toggleTheme() {

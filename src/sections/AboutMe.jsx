@@ -101,6 +101,8 @@ const AboutMeContainer = styled.section`
   }
 
   @media (max-width: 768px) {
+    padding: 50px 0;
+    gap: 50px;
     #about-me {
       align-items: center;
 
@@ -122,7 +124,7 @@ function AboutMe() {
 
   return (
     <AboutMeContainer id="about-me-container" theme={theme}>
-      <div id="about-me" data-aos="fade-right">
+      <div id="about-me">
         <h2>About Me</h2>
         <h3>
           <p>
@@ -158,7 +160,7 @@ function AboutMe() {
           </a>
         </div>
       </div>
-      <div id="stacks" data-aos="fade-right">
+      <div id="stacks">
         <h2>Stacks</h2>
         <h3>
           <p>

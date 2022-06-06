@@ -22,13 +22,16 @@ const IntroductionContainer = styled.section`
 
     align-items: center;
 
+    gap: 0px;
+
     text-align: center;
 
     transform: translateY(-50px);
 
     img {
       pointer-events: none;
-      margin-top: 20px;
+      transform: translateY(5px);
+      margin-left: 10px;
     }
 
     #subtitle {
@@ -104,6 +107,17 @@ const IntroductionContainer = styled.section`
       box-shadow: 0px 0px 100px 15px ${(props) => props.theme.primaryShadow};
     }
   }
+  @media (max-width: 768px) {
+    padding: 50px 0;
+  }
+  @media (max-width: 672px) {
+    #introduction-text {
+      gap: 10px;
+      h1 {
+        line-height: 50px;
+      }
+    }
+  }
   @media (max-width: 425px) {
     #profile-picture {
       width: 200px;
@@ -126,14 +140,12 @@ function Introduction() {
       />
       <div id="introduction-text">
         <h1>Antônio Pataro</h1>
-        <div id="subtitle">
-          <h3>
-            I'm a passionate{" "}
-            <span className="strong-purple">Front-End Developer</span> from
-            Brazil.
-          </h3>{" "}
-        </div>
-        <img src={brazilFlag} alt="Brazil's Flag" width={20} />
+        <h3>
+          I'm a passionate{" "}
+          <span className="strong-purple">Front-End Developer</span> from
+          Brazil.
+          <img src={brazilFlag} alt="Brazil's Flag" width={20} />
+        </h3>{" "}
       </div>
       <div id="scroll-down">
         <h4>Scroll for more</h4>

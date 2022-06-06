@@ -126,6 +126,8 @@ const HeaderContainer = styled.header`
   @media (max-width: 768px) {
     flex-direction: column;
 
+    padding: 50px 0;
+
     gap: 30px;
 
     #header-left {

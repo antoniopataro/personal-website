@@ -9,7 +9,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "aos": "^2.3.4",
     "npm": "^8.12.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",

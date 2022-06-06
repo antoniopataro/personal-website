@@ -145,6 +145,9 @@ const PortfolioContainer = styled.section`
       grid-template-columns: repeat(3, 1fr);
     }
   }
+  @media (max-width: 768px) {
+    padding: 50px 0;
+  }
 `;
 
 function Portfolio() {
@@ -152,12 +155,12 @@ function Portfolio() {
 
   return (
     <PortfolioContainer id="portfolio-container" theme={theme}>
-      <div id="section-title" data-aos="fade-up">
+      <div id="section-title">
         <h2>Portfolio</h2>
         <h4>Click on a project to test it out.</h4>
       </div>
       <div id="projects-wrapper">
-        <div className="project" data-aos="fade-right" data-aos-delay="0">
+        <div className="project">
           <a
             target="_blank"
             href="https://antoniopataro.github.io/e-commerce-app/"
@@ -176,7 +179,7 @@ function Portfolio() {
             </a>
           </div>
         </div>
-        <div className="project" data-aos="fade-right" data-aos-delay="50">
+        <div className="project">
           <a
             target="_blank"
             href="https://antoniopataro.github.io/todo-app/"
@@ -192,7 +195,7 @@ function Portfolio() {
             </a>
           </div>
         </div>
-        <div className="project" data-aos="fade-right" data-aos-delay="100">
+        <div className="project">
           <a
             target="_blank"
             href="https://antoniopataro.github.io/emoji-searcher/"
@@ -211,7 +214,7 @@ function Portfolio() {
             </a>
           </div>
         </div>
-        <div className="project" data-aos="fade-right" data-aos-delay="150">
+        <div className="project">
           <a href="" className="project-icon">
             <img
               src={personalWebsiteIcon}
@@ -230,7 +233,7 @@ function Portfolio() {
             </a>
           </div>
         </div>
-        <div className="project" data-aos="fade-right" data-aos-delay="200">
+        <div className="project">
           <a
             target="_blank"
             href="https://antoniopataro.github.io/ui-snippets/"
