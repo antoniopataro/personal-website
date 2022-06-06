@@ -215,7 +215,7 @@ function Portfolio() {
           </div>
         </div>
         <div className="project">
-          <a href="" className="project-icon">
+          <a href="https://antoniopataro.dev/" className="project-icon">
             <img
               src={personalWebsiteIcon}
               alt="Personal Website Icon"

@@ -1,6 +1,11 @@
 import React, { useState, useContext } from "react";
 import { ThemeContext } from "../App";
 
+import linkedinIcon from "../assets/social-icons/linkedinIcon.svg";
+import githubIcon from "../assets/social-icons/githubIcon.svg";
+import instagramIcon from "../assets/social-icons/instagramIcon.svg";
+import copyToClipboardIcon from "../assets/copyToClipboardIcon.svg";
+
 import styled from "styled-components";
 
 const FooterContainer = styled.footer`
@@ -189,9 +194,15 @@ const FooterContainer = styled.footer`
       transform: scale(0.95);
 
       display: flex;
+      flex-direction: column;
 
       width: 600px;
       height: 400px;
+
+      align-items: center;
+      justify-content: space-between;
+
+      padding: 60px 0;
 
       border-radius: 4px;
 
@@ -200,7 +211,7 @@ const FooterContainer = styled.footer`
       transition: 0.15s ease;
       transition-property: opacity transform;
 
-      button {
+      #close-modal-button {
         position: absolute;
 
         top: 20px;
@@ -227,7 +238,150 @@ const FooterContainer = styled.footer`
           color: ${(props) => props.theme.highlightedText};
         }
       }
+
+      #social {
+        display: flex;
+        flex-direction: row;
+
+        gap: 20px;
+
+        a img {
+          filter: ${(props) => props.theme.imageFilter};
+
+          transition: 0.15s ease;
+          transition-property: filter;
+
+          :hover {
+            filter: ${(props) => props.theme.hoveredImageFilter};
+          }
+        }
+      }
+
+      #send-me-an-email {
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+
+        align-items: center;
+
+        gap: 20px;
+
+        #e-mail-container {
+          display: flex;
+          flex-direction: column;
+
+          align-items: center;
+
+          gap: 10px;
+
+          #e-mail {
+            display: flex;
+            flex-direction: row;
+
+            align-items: center;
+            gap: 10px;
+
+            padding: 8px 12px;
+
+            border-radius: 4px;
+
+            cursor: default;
+
+            color: ${(props) => props.theme.inactiveText};
+            background-color: ${(props) => props.theme.background};
+
+            transition: 0.15s ease;
+            transition-property: color;
+
+            :hover {
+              color: ${(props) => props.theme.highlightedText};
+
+              button {
+                background-color: ${(props) => props.theme.foreground};
+              }
+
+              button img {
+                filter: ${(props) => props.theme.hoveredImageFilter};
+              }
+            }
+
+            button {
+              display: grid;
+              place-items: center;
+
+              width: 30px;
+              height: 30px;
+
+              transform: translateX(4px);
+
+              border: none;
+              outline: none;
+
+              cursor: pointer;
+
+              border-radius: 4px;
+
+              background-color: transparent;
+              transition-property: background-color;
+
+              img {
+                filter: ${(props) => props.theme.imageFilter};
+
+                transition: 0.15s ease;
+                transition-property: filter;
+              }
+            }
+          }
+
+          #e-mail-shortcut-container {
+            display: flex;
+            flex-direction: row;
+
+            align-items: center;
+
+            gap: 5px;
+
+            color: ${(props) => props.theme.inactiveText};
+
+            h4 {
+              font-size: clamp(12px, 1vw, 14px);
+            }
+          }
+        }
+      }
     }
+  }
+
+  #toast {
+    position: fixed;
+
+    z-index: 3;
+
+    display: grid;
+    place-items: center;
+
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+    width: fit-content;
+
+    padding: 16px 24px;
+
+    border-radius: 4px;
+
+    color: ${(props) => props.theme.text};
+    background: ${(props) => props.theme.extremeColor};
+
+    opacity: 0;
+
+    transform: translateY(30px);
+    overflow: hidden;
+
+    transition: 0.15s ease;
+    transition-property: opacity, transform;
   }
 
   @media (max-width: 1200px) {
@@ -237,11 +391,21 @@ const FooterContainer = styled.footer`
       }
     }
   }
+
+  @media (max-width: 768px) {
+    #modal-container {
+      #modal {
+        width: calc(100vw - 30px);
+        height: 50vh;
+      }
+    }
+  }
 `;
 
 function Footer() {
   const { theme } = useContext(ThemeContext);
 
+  const [newToast, setNewToast] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const modalContainerStyles = {};
@@ -253,6 +417,41 @@ function Footer() {
 
     modalStyles.opacity = 1;
     modalStyles.transform = `scale(1)`;
+
+    modalShortcuts();
+  }
+
+  function modalShortcuts() {
+    document.addEventListener("keydown", (e) => {
+      const key = e.key.toLowerCase();
+      const ctrl = e.ctrlKey;
+
+      if (ctrl && key === "c") {
+        navigator.clipboard.writeText("antoniopatarodev@gmail.com");
+        handleToast();
+        return;
+      }
+
+      if (key === "escape") {
+        setIsModalOpen(false);
+        return;
+      }
+    });
+  }
+
+  function handleToast() {
+    setNewToast(true);
+
+    setTimeout(() => {
+      setNewToast(false);
+    }, 2000);
+  }
+
+  const toastStyles = {};
+
+  if (newToast) {
+    toastStyles.opacity = 1;
+    toastStyles.transform = `translateY(-30px)`;
   }
 
   return (
@@ -265,7 +464,7 @@ function Footer() {
           </h1>
         </div>
         <button id="footer-cta" onClick={() => setIsModalOpen(true)}>
-          <h4>Get in Touch</h4>
+          <h4>Click here!</h4>
           <div id="cta-shortcut">
             <h4>Press</h4>
             <div id="shortcut">C</div>
@@ -275,7 +474,13 @@ function Footer() {
       <div id="description">
         <h4>
           <p>
-            Build by <span id="author">Antônio Pataro</span>
+            Build by{" "}
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/antoniopataro/"
+            >
+              <span id="author">Antônio Pataro</span>
+            </a>
             <br />
             <br />
             <span id="figma">
@@ -293,8 +498,41 @@ function Footer() {
       </div>
       <div id="modal-container" style={modalContainerStyles}>
         <div id="modal" style={modalStyles}>
-          <button onClick={() => setIsModalOpen(false)}>Close</button>
+          <h2>Let's Connect!</h2>
+          <button id="close-modal-button" onClick={() => setIsModalOpen(false)}>
+            Close
+          </button>
+          <div id="social">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/antoniopataro/"
+            >
+              <img src={linkedinIcon} alt="LinkedIn" width={40} />
+            </a>
+            <a target="_blank" href="https://github.com/antoniopataro">
+              <img src={githubIcon} alt="Github" width={40} />
+            </a>
+            <a target="_blank" href="https://www.instagram.com/antoniopataro/">
+              <img src={instagramIcon} alt="Instagram" width={40} />
+            </a>
+          </div>
+          <div id="send-me-an-email">
+            <div id="e-mail-container">
+              <div id="e-mail">
+                <h4>antoniopatarodev@gmail.com</h4>
+                <button>
+                  <img src={copyToClipboardIcon} alt="" width={15} />
+                </button>
+              </div>
+              <div id="e-mail-shortcut-container">
+                <h4>Copy or press Ctrl + C</h4>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <div id="toast" style={toastStyles}>
+        <h3>Copied to clipboard!</h3>
       </div>
     </FooterContainer>
   );

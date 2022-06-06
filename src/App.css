@@ -30,7 +30,7 @@ h3{
 }
 
 h4{
-  font-size: clamp(12px, 1vw, 20px);
+  font-size: clamp(12px, 1vw, 18px);
   font-weight: 400;
 }
 
