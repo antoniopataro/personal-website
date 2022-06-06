@@ -178,19 +178,18 @@ Error generating stack: `+i.message+`
   }
 
   @media (max-width: 768px) {
+    flex-direction: column;
+
+    gap: 30px;
+
     #header-left {
       button {
-        position: fixed;
-
         z-index: 2;
 
-        bottom: 100px;
-        left: 0;
-        right: 0;
+        bottom: 10vw;
+        right: 10vw;
 
         margin: auto;
-
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
       }
     }
   }
@@ -298,6 +297,13 @@ Error generating stack: `+i.message+`
   @media (max-width: 1024px) {
     #profile-picture {
       box-shadow: 0px 0px 100px 15px ${e=>e.theme.primaryShadow};
+    }
+  }
+  @media (max-width: 425px) {
+    #profile-picture {
+      width: 200px;
+      height: 200px;
+      box-shadow: 0px 0px 50px 15px ${e=>e.theme.primaryShadow};
     }
   } ;
 `;function jm(){const{theme:e}=Ae.exports.useContext(Wn);return Q(Om,{theme:e,children:[k("img",{src:Am,alt:"Ant\xF4nio Pataro",id:"profile-picture",width:250}),Q("div",{id:"introduction-text",children:[k("h1",{children:"Ant\xF4nio Pataro"}),Q("div",{id:"subtitle",children:[Q("h3",{children:["I'm a passionate"," ",k("span",{className:"strong-purple",children:"Front-End Developer"})," from Brazil."]})," "]}),k("img",{src:$m,alt:"Brazil's Flag",width:20})]}),Q("div",{id:"scroll-down",children:[k("h4",{children:"Scroll for more"}),k("div",{id:"animated-scroll-stroke",children:k("div",{id:"animate-scroll-center"})})]})]})}var Rt="/assets/externalIcon.209c46cb.svg";const Im=Vn.section`
@@ -410,7 +416,7 @@ Error generating stack: `+i.message+`
       }
     }
   }
-`;function Lm(){const{theme:e}=Ae.exports.useContext(Wn);return Q(Im,{id:"about-me-container",theme:e,children:[Q("div",{id:"about-me","data-aos":"fade-left",children:[k("h2",{children:"About Me"}),k("h3",{children:Q("p",{children:["I\u2019m a",k("span",{className:"strong-purple",children:" self-taught web developer "}),"who",k("span",{className:"strong-purple",children:" fell in love"})," with programming.",k("br",{}),k("br",{}),"I'm currently coursing Aerospace Engineering in college. However, I'm looking for a",k("span",{className:"strong-purple",children:" professional opportunity"})," as a",k("span",{className:"strong-purple",children:" developer"})," so I can change it to ",k("span",{className:"strong-purple",children:"Computer Science."}),k("br",{}),k("br",{}),"You can find me on:"]})}),Q("div",{id:"social-links",children:[Q("a",{href:"https://github.com/antoniopataro",target:"_blank",children:[k("h4",{children:"Github"}),k("img",{src:Rt,alt:"My Github profile.",width:12})]}),Q("a",{href:"https://www.linkedin.com/in/antoniopataro/",target:"_blank",children:[k("h4",{children:"LinkedIn"}),k("img",{src:Rt,alt:"My LinkedIn profile.",width:12})]}),Q("a",{href:"https://www.instagram.com/antoniopataro/",target:"_blank",children:[k("h4",{children:"Instagram"}),k("img",{src:Rt,alt:"My Instagram profile.",width:12})]})]})]}),Q("div",{id:"stacks","data-aos":"fade-right",children:[k("h2",{children:"Stacks"}),k("h3",{children:Q("p",{children:["I started learning web development with",k("span",{className:"strong-purple",children:" Javascript"}),", with which I learned ",k("span",{className:"strong-purple",children:" HTML"})," and",k("span",{className:"strong-purple",children:" CSS"}),".",k("br",{}),k("br",{}),"After I felt confident enough, I jumped onto",k("span",{className:"strong-purple",children:" ReactJS"}),", framework that was basically love at first sight for me.",k("br",{}),k("br",{}),"Currently I\u2019m studying the basics of Back-End Development with",k("span",{className:"strong-purple",children:" NodeJS"}),", but my real passion is on Front-End."]})})]})]})}var Rm="/assets/eCommerceIcon.0aca8c0d.png",Mm="/assets/toDoListIcon.c5c5f520.png",Fm="/assets/emojiSearcherIcon.c40cc6f4.png",Dm="/assets/personalWebsiteIcon.07988f85.png",Um="/assets/uiSnippetsIcon.6aeb1549.png";const Bm=Vn.section`
+`;function Lm(){const{theme:e}=Ae.exports.useContext(Wn);return Q(Im,{id:"about-me-container",theme:e,children:[Q("div",{id:"about-me","data-aos":"fade-right",children:[k("h2",{children:"About Me"}),k("h3",{children:Q("p",{children:["I\u2019m a",k("span",{className:"strong-purple",children:" self-taught web developer "}),"who",k("span",{className:"strong-purple",children:" fell in love"})," with programming.",k("br",{}),k("br",{}),"I'm currently coursing Aerospace Engineering in college. However, I'm looking for a",k("span",{className:"strong-purple",children:" professional opportunity"})," as a",k("span",{className:"strong-purple",children:" developer"})," so I can change it to ",k("span",{className:"strong-purple",children:"Computer Science."}),k("br",{}),k("br",{}),"You can find me on:"]})}),Q("div",{id:"social-links",children:[Q("a",{href:"https://github.com/antoniopataro",target:"_blank",children:[k("h4",{children:"Github"}),k("img",{src:Rt,alt:"My Github profile.",width:12})]}),Q("a",{href:"https://www.linkedin.com/in/antoniopataro/",target:"_blank",children:[k("h4",{children:"LinkedIn"}),k("img",{src:Rt,alt:"My LinkedIn profile.",width:12})]}),Q("a",{href:"https://www.instagram.com/antoniopataro/",target:"_blank",children:[k("h4",{children:"Instagram"}),k("img",{src:Rt,alt:"My Instagram profile.",width:12})]})]})]}),Q("div",{id:"stacks","data-aos":"fade-right",children:[k("h2",{children:"Stacks"}),k("h3",{children:Q("p",{children:["I started learning web development with",k("span",{className:"strong-purple",children:" Javascript"}),", with which I learned ",k("span",{className:"strong-purple",children:" HTML"})," and",k("span",{className:"strong-purple",children:" CSS"}),".",k("br",{}),k("br",{}),"After I felt confident enough, I jumped onto",k("span",{className:"strong-purple",children:" ReactJS"}),", framework that was basically love at first sight for me.",k("br",{}),k("br",{}),"Currently I\u2019m studying the basics of Back-End Development with",k("span",{className:"strong-purple",children:" NodeJS"}),", but my real passion is on Front-End."]})})]})]})}var Rm="/assets/eCommerceIcon.0aca8c0d.png",Mm="/assets/toDoListIcon.c5c5f520.png",Fm="/assets/emojiSearcherIcon.c40cc6f4.png",Dm="/assets/personalWebsiteIcon.07988f85.png",Um="/assets/uiSnippetsIcon.6aeb1549.png";const Bm=Vn.section`
   display: flex;
   flex-direction: column;
 
