@@ -1,33 +1,31 @@
 # 💻 ️Personal Website
 
-A simple project for a personal website meant for me!
-Its intent was actually to test out my junior Front-End skills. It may be a real website someday. 🔥
+This is my personal webiste's repository, used [here](https://www.antoniopataro.github.io/).
+
+Feel free to share thoughts to me and get in touch.
 
 # Preview
 
-![Preview](https://s10.gifyu.com/images/project-gif.gif)
+![Preview](https://s8.gifyu.com/images/2022-06-05-23-35-05.gif)
 
 ### 📃 History
 
 ---
 
-This is my first step into JavaScript frameworks and libraries. It's made with React.
-In the proccess, I also discovered `styled-components` and liked it a lot. It really makes dinamically styles something easy.
+Some time ago, this repository used to carry my first ReactJS project. 🥲
 
-It's design was inspired by [this creation](https://dribbble.com/shots/15187218-Adam-Zonski-Personal-Portfolio-Website) and transposed/remade in this [figma file](https://www.figma.com/file/cibaFLJNSHOa8dKKn3V9Mo/antoniopataro?node-id=69%3A42).
+Even though it is kinda of overkill to create a personal website (portolio-like) with React, I decided to stick around and redesign it. ⚛️
 
-It's also my first React project. ⚛️
+You can find this and some older desings for my personal website in this [figma file](https://www.figma.com/file/cibaFLJNSHOa8dKKn3V9Mo/Personal-Website?node-id=272%3A31).
 
 ### ⚙️ Technologies
 
 ---
 
-- HTML
-- CSS
-- Javascript (React as Framework/Lib)
-- Figma (for Design)
+- `ReactJS`, which includes `HTML`, `CSS` and `Javascript`;
+- `styled-components`, a pretty nice CSS in JS library;
+- `AOS` (Animate on Sroll), a simple lib for animations on scroll!
 
 ---
 
-Note: Contact info is currently retained on `sessionStorage`.
-Note 2: Despite it works, the stylization is a mess right now. I could, but I don't think I'm going to refactor it in a near future, because I'm into other projects at the moment.
+Note: Contact form is still pending.
