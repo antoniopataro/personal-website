@@ -103,6 +103,13 @@ const IntroductionContainer = styled.section`
     #profile-picture {
       box-shadow: 0px 0px 100px 15px ${(props) => props.theme.primaryShadow};
     }
+  }
+  @media (max-width: 425px) {
+    #profile-picture {
+      width: 200px;
+      height: 200px;
+      box-shadow: 0px 0px 50px 15px ${(props) => props.theme.primaryShadow};
+    }
   } ;
 `;
 

@@ -124,19 +124,18 @@ const HeaderContainer = styled.header`
   }
 
   @media (max-width: 768px) {
+    flex-direction: column;
+
+    gap: 30px;
+
     #header-left {
       button {
-        position: fixed;
-
         z-index: 2;
 
-        bottom: 100px;
-        left: 0;
-        right: 0;
+        bottom: 10vw;
+        right: 10vw;
 
         margin: auto;
-
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
       }
     }
   }

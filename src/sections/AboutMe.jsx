@@ -122,7 +122,7 @@ function AboutMe() {
 
   return (
     <AboutMeContainer id="about-me-container" theme={theme}>
-      <div id="about-me" data-aos="fade-left">
+      <div id="about-me" data-aos="fade-right">
         <h2>About Me</h2>
         <h3>
           <p>
