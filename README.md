@@ -6,7 +6,9 @@ Feel free to share thoughts to me and get in touch.
 
 # Preview
 
-![Preview](https://s8.gifyu.com/images/2022-06-05-23-35-05.gif)
+<p align="center">
+  <img src="https://s8.gifyu.com/images/2022-06-05-23-35-05.gif">
+</p>
 
 ### 📃 History
 
