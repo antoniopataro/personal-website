@@ -169,13 +169,13 @@ function Header() {
         </div>
       </div>
       <nav id="header-right">
-        <a href="#about-me-container">
+        <a href="#about-me">
           <h3>About me</h3>
         </a>
-        <a href="#portfolio-container">
+        <a href="#portfolio">
           <h3>Portfolio</h3>
         </a>
-        <a href="#lets-connect-container">
+        <a href="#lets-connect">
           <h3>Let's Connect</h3>
         </a>
       </nav>

@@ -154,7 +154,7 @@ function Portfolio() {
   const { theme } = useContext(ThemeContext);
 
   return (
-    <PortfolioContainer id="portfolio-container" theme={theme}>
+    <PortfolioContainer id="portfolio" theme={theme}>
       <div id="section-title">
         <h2>Portfolio</h2>
         <h4>Click on a project to test it out.</h4>

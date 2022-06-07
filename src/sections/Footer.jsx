@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useCallback, useEffect } from "react";
 import { ThemeContext } from "../App";
 
 import linkedinIcon from "../assets/social-icons/linkedinIcon.svg";
@@ -411,32 +411,32 @@ function Footer() {
   const modalContainerStyles = {};
   const modalStyles = {};
 
-  if (isModalOpen) {
-    modalContainerStyles.opacity = "1";
-    modalContainerStyles.pointerEvents = "auto";
+  const handleKeyPress = useCallback((e) => {
+    const key = e.key.toLowerCase();
+    const ctrl = e.ctrlKey;
 
-    modalStyles.opacity = 1;
-    modalStyles.transform = `scale(1)`;
+    if (ctrl && key === "c") {
+      copyEmail();
+      return;
+    }
 
-    modalShortcuts();
-  }
+    if (key === "escape") {
+      setIsModalOpen(false);
+      return;
+    }
+  }, []);
 
-  function modalShortcuts() {
-    document.addEventListener("keydown", (e) => {
-      const key = e.key.toLowerCase();
-      const ctrl = e.ctrlKey;
+  useEffect(() => {
+    document.addEventListener("keydown", handleKeyPress);
 
-      if (ctrl && key === "c") {
-        navigator.clipboard.writeText("antoniopatarodev@gmail.com");
-        handleToast();
-        return;
-      }
+    return () => {
+      document.removeEventListener("keydown", handleKeyPress);
+    };
+  }, [handleKeyPress]);
 
-      if (key === "escape") {
-        setIsModalOpen(false);
-        return;
-      }
-    });
+  function copyEmail() {
+    navigator.clipboard.writeText("antoniopatarodev@gmail.com");
+    handleToast();
   }
 
   function handleToast() {
@@ -447,6 +447,14 @@ function Footer() {
     }, 2000);
   }
 
+  if (isModalOpen) {
+    modalContainerStyles.opacity = "1";
+    modalContainerStyles.pointerEvents = "auto";
+
+    modalStyles.opacity = 1;
+    modalStyles.transform = `scale(1)`;
+  }
+
   const toastStyles = {};
 
   if (newToast) {
@@ -455,7 +463,7 @@ function Footer() {
   }
 
   return (
-    <FooterContainer id="lets-connect-container" theme={theme}>
+    <FooterContainer id="lets-connect" theme={theme}>
       <div id="footer-cta-wrapper" data-aos="fade-in">
         <div id="footer-background-text">
           <h1>
@@ -520,7 +528,7 @@ function Footer() {
             <div id="e-mail-container">
               <div id="e-mail">
                 <h4>antoniopatarodev@gmail.com</h4>
-                <button>
+                <button onClick={copyEmail}>
                   <img src={copyToClipboardIcon} alt="" width={15} />
                 </button>
               </div>

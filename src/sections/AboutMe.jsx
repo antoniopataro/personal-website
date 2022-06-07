@@ -20,7 +20,7 @@ const AboutMeContainer = styled.section`
     width: fit-content;
   }
 
-  #about-me {
+  #about-me-container {
     display: flex;
     flex-direction: column;
 
@@ -90,7 +90,7 @@ const AboutMeContainer = styled.section`
   @media (max-width: 1024px) {
     flex-direction: column;
 
-    #about-me,
+    #about-me-container,
     #stacks {
       width: 100%;
 
@@ -103,7 +103,7 @@ const AboutMeContainer = styled.section`
   @media (max-width: 768px) {
     padding: 50px 0;
     gap: 50px;
-    #about-me {
+    #about-me-container {
       align-items: center;
 
       h2 {
@@ -123,8 +123,8 @@ function AboutMe() {
   const { theme } = useContext(ThemeContext);
 
   return (
-    <AboutMeContainer id="about-me-container" theme={theme}>
-      <div id="about-me">
+    <AboutMeContainer id="about-me" theme={theme}>
+      <div id="about-me-container">
         <h2>About Me</h2>
         <h3>
           <p>
