@@ -166,7 +166,7 @@ function Portfolio() {
             href="https://antoniopataro.github.io/e-commerce-app/"
             className="project-icon"
           >
-            <img src={eCommerceIcon} alt="Emoji Searcher Icon" width={40} />
+            <img src={eCommerceIcon} alt="E-Commerce Icon" width={40} />
           </a>
           <div className="project-info">
             <h3>E-Commerce</h3>
@@ -185,7 +185,7 @@ function Portfolio() {
             href="https://antoniopataro.github.io/todo-app/"
             className="project-icon"
           >
-            <img src={toDoListIcon} alt="Emoji Searcher Icon" width={40} />
+            <img src={toDoListIcon} alt="To-Do Icon" width={40} />
           </a>
           <div className="project-info">
             <h3>To-Do List</h3>
@@ -239,7 +239,7 @@ function Portfolio() {
             href="https://antoniopataro.github.io/ui-snippets/"
             className="project-icon"
           >
-            <img src={uiSnippetsIcon} alt="Emoji Searcher Icon" width={40} />
+            <img src={uiSnippetsIcon} alt="UI-Snippets Icon" width={40} />
           </a>
           <div className="project-info">
             <h3>UI-Snippets</h3>
