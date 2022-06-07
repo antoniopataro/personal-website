@@ -12,7 +12,8 @@
     "npm": "^8.12.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "styled-components": "^5.3.5"
+    "styled-components": "^5.3.5",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
