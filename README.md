@@ -26,5 +26,3 @@ You can find this and some older desings for my personal website in this [figma 
 
 - `ReactJS`, which includes `HTML`, `CSS` and `Javascript`;
 - `styled-components`, a pretty nice CSS in JS library.
-
-Note: Contact form is still pending.
