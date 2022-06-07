@@ -172,7 +172,7 @@ function Portfolio() {
             <h3>E-Commerce</h3>
             <a
               target="_blank"
-              href="https://github.com/antoniopataro/e-commerce-app"
+              href="https://github.com/antoniopataro/e-commerce"
             >
               <h4>Code</h4>
               <img src={externalIcon} alt="Project's Repository" width={12} />
