@@ -6,14 +6,14 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "npm": "^8.12.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "styled-components": "^5.3.5",
-    "deploy": "gh-pages -d dist"
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
