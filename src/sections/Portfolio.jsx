@@ -163,7 +163,7 @@ function Portfolio() {
         <div className="project">
           <a
             target="_blank"
-            href="https://antoniopataro.github.io/e-commerce-app/"
+            href="https://antoniopataro.github.io/e-commerce/"
             className="project-icon"
           >
             <img src={eCommerceIcon} alt="E-Commerce Icon" width={40} />
