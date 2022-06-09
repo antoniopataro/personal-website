@@ -1,4 +1,4 @@
-import React, { useState, useContext, useCallback, useEffect } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import { ThemeContext } from "../App";
 
 import linkedinIcon from "../assets/social-icons/linkedinIcon.svg";
@@ -411,20 +411,25 @@ function Footer() {
   const modalContainerStyles = {};
   const modalStyles = {};
 
-  const handleKeyPress = useCallback((e) => {
+  const handleKeyPress = (e) => {
     const key = e.key.toLowerCase();
     const ctrl = e.ctrlKey;
 
-    if (ctrl && key === "c") {
+    if (isModalOpen && ctrl && key === "c") {
       copyEmail();
       return;
     }
 
-    if (key === "escape") {
+    if (key === "c") {
+      toggleModal();
+      return;
+    }
+
+    if (isModalOpen && key === "escape") {
       setIsModalOpen(false);
       return;
     }
-  }, []);
+  };
 
   useEffect(() => {
     document.addEventListener("keydown", handleKeyPress);
@@ -433,6 +438,10 @@ function Footer() {
       document.removeEventListener("keydown", handleKeyPress);
     };
   }, [handleKeyPress]);
+
+  function toggleModal() {
+    setIsModalOpen(!isModalOpen);
+  }
 
   function copyEmail() {
     navigator.clipboard.writeText("antoniopatarodev@gmail.com");
@@ -471,7 +480,7 @@ function Footer() {
             <br /> Connect
           </h1>
         </div>
-        <button id="footer-cta" onClick={() => setIsModalOpen(true)}>
+        <button id="footer-cta" onClick={() => toggleModal()}>
           <h4>Click here!</h4>
           <div id="cta-shortcut">
             <h4>Press</h4>
@@ -507,18 +516,18 @@ function Footer() {
       <div id="modal-container" style={modalContainerStyles}>
         <div id="modal" style={modalStyles}>
           <h2>Let's Connect!</h2>
-          <button id="close-modal-button" onClick={() => setIsModalOpen(false)}>
+          <button id="close-modal-button" onClick={() => toggleModal()}>
             Close
           </button>
           <div id="social">
+            <a target="_blank" href="https://github.com/antoniopataro">
+              <img src={githubIcon} alt="Github" width={40} />
+            </a>
             <a
               target="_blank"
               href="https://www.linkedin.com/in/antoniopataro/"
             >
               <img src={linkedinIcon} alt="LinkedIn" width={40} />
-            </a>
-            <a target="_blank" href="https://github.com/antoniopataro">
-              <img src={githubIcon} alt="Github" width={40} />
             </a>
             <a target="_blank" href="https://www.instagram.com/antoniopataro/">
               <img src={instagramIcon} alt="Instagram" width={40} />
