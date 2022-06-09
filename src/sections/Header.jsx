@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { ThemeContext } from "../App";
 
 import themeIcon from "../assets/themeIcon.svg";
@@ -153,6 +153,24 @@ const HeaderContainer = styled.header`
 
 function Header() {
   const { theme, toggleTheme } = useContext(ThemeContext);
+
+  const handleKeyPress = (e) => {
+    const key = e.key.toLowerCase();
+    const ctrl = e.ctrlKey;
+
+    if (ctrl && key === "q") {
+      toggleTheme();
+      return;
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("keydown", handleKeyPress);
+
+    return () => {
+      document.removeEventListener("keydown", handleKeyPress);
+    };
+  }, [handleKeyPress]);
 
   return (
     <HeaderContainer theme={theme}>

@@ -508,8 +508,11 @@ function Footer() {
               >
                 Figma
               </a>
+              .
+              <br />
+              <br />
+              You can press Ctrl + Q to toggle the theme.
             </span>
-            .
           </p>
         </h4>
       </div>
