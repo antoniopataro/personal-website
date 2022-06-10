@@ -85,6 +85,46 @@ const AboutMeContainer = styled.section`
     width: calc(30vw - 50px);
 
     gap: 30px;
+
+    a {
+      display: flex;
+      flex-direction: row;
+
+      width: fit-content;
+
+      gap: 10px;
+      padding: 8px 20px;
+
+      border-radius: 4px;
+
+      text-decoration: none;
+
+      color: ${(props) => props.theme.inactiveText};
+      background-color: ${(props) => props.theme.foreground};
+
+      transition: 0.15s ease;
+      transition-property: color;
+
+      h4 {
+        font-weight: 500;
+      }
+
+      img {
+        pointer-events: none;
+
+        transition: filter 0.15s ease;
+
+        filter: ${(props) => props.theme.imageFilter};
+      }
+
+      :hover {
+        color: ${(props) => props.theme.highlightedText};
+
+        img {
+          filter: ${(props) => props.theme.hoveredImageFilter};
+        }
+      }
+    }
   }
 
   @media (max-width: 1024px) {
@@ -122,6 +162,13 @@ const AboutMeContainer = styled.section`
 function AboutMe() {
   const { theme } = useContext(ThemeContext);
 
+  const currentDate = new Date();
+  const startedStudying = new Date("03/08/2022");
+
+  const daysStudying = Math.round(
+    (currentDate - startedStudying) / (1000 * 60 * 60 * 24)
+  );
+
   return (
     <AboutMeContainer id="about-me" theme={theme}>
       <div id="about-me-container">
@@ -130,9 +177,9 @@ function AboutMe() {
           <p>
             I’m a
             <span className="strong-purple"> self-taught web developer </span>
-            who
-            <span className="strong-purple"> fell in love</span> with
-            programming.
+            who's
+            <span className="strong-purple"> in love</span> with programming for{" "}
+            <span className="strong-purple">{daysStudying} days</span>.
             <br />
             <br />
             I'm currently coursing Aerospace Engineering in college. However,
@@ -170,16 +217,24 @@ function AboutMe() {
             <span className="strong-purple"> CSS</span>.
             <br />
             <br />
-            After I felt confident enough, I jumped onto
+            After I felt confident enough, I dived into
             <span className="strong-purple"> ReactJS</span>, framework that was
             basically love at first sight for me.
             <br />
             <br />
             Currently I’m studying the basics of Back-End Development with
-            <span className="strong-purple"> NodeJS</span>, but my real passion
-            is on Front-End.
+            <span className="strong-purple"> NodeJS</span> and{" "}
+            <span className="strong-purple">MySQL</span> and creating projects
+            with <span className="strong-purple">Typescript</span> sometimes.
           </p>
         </h3>
+        <a
+          href="https://antoniopataro.notion.site/Ant-nio-Pataro-8baa7d3f636a4b67a631e04db007cbb0"
+          target="_blank"
+        >
+          <h4>Resume</h4>
+          <img src={externalIcon} alt="My Resume." width={12} />
+        </a>
       </div>
     </AboutMeContainer>
   );
