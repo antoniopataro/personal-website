@@ -38,3 +38,7 @@ h4{
   font-weight: 500;
   color: #676CDB;
 }
+
+::selection { 
+  background: rgba(103, 108, 219, 0.5); 
+}
