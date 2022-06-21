@@ -161,30 +161,19 @@ function Portfolio() {
       </div>
       <div id="projects-wrapper">
         <div className="project">
-          <a
-            target="_blank"
-            href="https://antoniopataro.github.io/e-commerce/"
-            className="project-icon"
-          >
+          <a target="_blank" href="https://e-commerce-dusky-six.vercel.app/" className="project-icon">
             <img src={eCommerceIcon} alt="E-Commerce Icon" width={40} />
           </a>
           <div className="project-info">
             <h3>E-Commerce</h3>
-            <a
-              target="_blank"
-              href="https://github.com/antoniopataro/e-commerce"
-            >
+            <a target="_blank" href="https://github.com/antoniopataro/e-commerce">
               <h4>Code</h4>
               <img src={externalIcon} alt="Project's Repository" width={12} />
             </a>
           </div>
         </div>
         <div className="project">
-          <a
-            target="_blank"
-            href="https://antoniopataro.github.io/todo-app/"
-            className="project-icon"
-          >
+          <a target="_blank" href="https://antoniopataro.github.io/todo-app/" className="project-icon">
             <img src={toDoListIcon} alt="To-Do Icon" width={40} />
           </a>
           <div className="project-info">
@@ -196,19 +185,12 @@ function Portfolio() {
           </div>
         </div>
         <div className="project">
-          <a
-            target="_blank"
-            href="https://antoniopataro.github.io/emoji-searcher/"
-            className="project-icon"
-          >
+          <a target="_blank" href="https://antoniopataro.github.io/emoji-searcher/" className="project-icon">
             <img src={emojiSearcherIcon} alt="Emoji Searcher Icon" width={40} />
           </a>
           <div className="project-info">
             <h3>Emoji Searcher</h3>
-            <a
-              target="_blank"
-              href="https://github.com/antoniopataro/emoji-searcher"
-            >
+            <a target="_blank" href="https://github.com/antoniopataro/emoji-searcher">
               <h4>Code</h4>
               <img src={externalIcon} alt="Project's Repository" width={12} />
             </a>
@@ -216,37 +198,23 @@ function Portfolio() {
         </div>
         <div className="project">
           <a href="https://antoniopataro.dev/" className="project-icon">
-            <img
-              src={personalWebsiteIcon}
-              alt="Personal Website Icon"
-              width={40}
-            />
+            <img src={personalWebsiteIcon} alt="Personal Website Icon" width={40} />
           </a>
           <div className="project-info">
             <h3>Personal Website</h3>
-            <a
-              target="_blank"
-              href="https://github.com/antoniopataro/personal-website"
-            >
+            <a target="_blank" href="https://github.com/antoniopataro/personal-website">
               <h4>Code</h4>
               <img src={externalIcon} alt="Project's Repository" width={12} />
             </a>
           </div>
         </div>
         <div className="project">
-          <a
-            target="_blank"
-            href="https://antoniopataro.github.io/ui-snippets/"
-            className="project-icon"
-          >
+          <a target="_blank" href="https://antoniopataro.github.io/ui-snippets/" className="project-icon">
             <img src={uiSnippetsIcon} alt="UI-Snippets Icon" width={40} />
           </a>
           <div className="project-info">
             <h3>UI-Snippets</h3>
-            <a
-              target="_blank"
-              href="https://github.com/antoniopataro/ui-snippets"
-            >
+            <a target="_blank" href="https://github.com/antoniopataro/ui-snippets">
               <h4>Code</h4>
               <img src={externalIcon} alt="Project's Repository" width={12} />
             </a>
@@ -256,10 +224,7 @@ function Portfolio() {
       <div id="see-more-projects">
         <h3>
           See more on{" "}
-          <a
-            target="_blank"
-            href="https://github.com/antoniopataro?tab=repositories"
-          >
+          <a target="_blank" href="https://github.com/antoniopataro?tab=repositories">
             {" "}
             my repositories
           </a>
