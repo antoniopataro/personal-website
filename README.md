@@ -1,6 +1,6 @@
 # 💻 ️Personal Website
 
-This is my personal webiste's repository, used [here](https://www.antoniopataro.github.io/).
+This is my personal webiste's repository, used [here](https://www.antoniopataro.dev/).
 
 Feel free to share thoughts to me and get in touch.
 
