@@ -161,7 +161,7 @@ function Portfolio() {
       </div>
       <div id="projects-wrapper">
         <div className="project">
-          <a target="_blank" href="https://e-commerce-dusky-six.vercel.app/" className="project-icon">
+          <a target="_blank" href="https://e-commerce-antoniopataro.vercel.app/" className="project-icon">
             <img src={eCommerceIcon} alt="E-Commerce Icon" width={40} />
           </a>
           <div className="project-info">
