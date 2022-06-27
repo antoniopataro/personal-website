@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { ThemeContext } from "../App";
 
 import eCommerceIcon from "../assets/projects-icons/eCommerceIcon.png";
+import typerDevIcon from "../assets/projects-icons/typerDevIcon.png";
 import toDoListIcon from "../assets/projects-icons/toDoListIcon.png";
 import emojiSearcherIcon from "../assets/projects-icons/emojiSearcherIcon.png";
 import personalWebsiteIcon from "../assets/projects-icons/personalWebsiteIcon.png";
@@ -173,12 +174,12 @@ function Portfolio() {
           </div>
         </div>
         <div className="project">
-          <a target="_blank" href="https://antoniopataro.github.io/todo-app/" className="project-icon">
-            <img src={toDoListIcon} alt="To-Do Icon" width={40} />
+          <a target="_blank" href="https://antoniopataro.github.io/typer-dev/" className="project-icon">
+            <img src={typerDevIcon} alt="E-Commerce Icon" width={40} />
           </a>
           <div className="project-info">
-            <h3>To-Do List</h3>
-            <a target="_blank" href="https://github.com/antoniopataro/todo-app">
+            <h3>TyperDev</h3>
+            <a target="_blank" href="https://github.com/antoniopataro/typer-dev">
               <h4>Code</h4>
               <img src={externalIcon} alt="Project's Repository" width={12} />
             </a>
@@ -191,6 +192,18 @@ function Portfolio() {
           <div className="project-info">
             <h3>Emoji Searcher</h3>
             <a target="_blank" href="https://github.com/antoniopataro/emoji-searcher">
+              <h4>Code</h4>
+              <img src={externalIcon} alt="Project's Repository" width={12} />
+            </a>
+          </div>
+        </div>
+        <div className="project">
+          <a target="_blank" href="https://antoniopataro.github.io/todo-app/" className="project-icon">
+            <img src={toDoListIcon} alt="To-Do Icon" width={40} />
+          </a>
+          <div className="project-info">
+            <h3>To-Do List</h3>
+            <a target="_blank" href="https://github.com/antoniopataro/todo-app">
               <h4>Code</h4>
               <img src={externalIcon} alt="Project's Repository" width={12} />
             </a>
