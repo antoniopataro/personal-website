@@ -1,12 +1,6 @@
-import React, { useContext } from "react";
-import { ThemeContext } from "../App";
-
-import profilePicture from "../assets/profilePicture.png";
-import brazilFlag from "../assets/brazilFlag.png";
-
 import styled from "styled-components";
 
-const IntroductionContainer = styled.section`
+const IntroductionStyles = styled.section`
   display: flex;
   flex-direction: column;
 
@@ -127,34 +121,4 @@ const IntroductionContainer = styled.section`
   } ;
 `;
 
-function Introduction() {
-  const { theme } = useContext(ThemeContext);
-
-  return (
-    <IntroductionContainer theme={theme}>
-      <img
-        src={profilePicture}
-        alt="Antônio Pataro"
-        id="profile-picture"
-        width={250}
-      />
-      <div id="introduction-text">
-        <h1>Antônio Pataro</h1>
-        <h3>
-          I'm a passionate{" "}
-          <span className="strong-purple">Front-End Developer</span> from
-          Brazil.
-          <img src={brazilFlag} alt="Brazil's Flag" width={20} />
-        </h3>{" "}
-      </div>
-      <div id="scroll-down">
-        <h4>Scroll for more</h4>
-        <div id="animated-scroll-stroke">
-          <div id="animate-scroll-center" />
-        </div>
-      </div>
-    </IntroductionContainer>
-  );
-}
-
-export default Introduction;
+export default IntroductionStyles;
