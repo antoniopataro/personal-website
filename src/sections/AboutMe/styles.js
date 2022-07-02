@@ -37,7 +37,7 @@ const AboutMeStyles = styled.section`
 
         width: fit-content;
 
-        gap: 10px;
+        gap: 4px;
         padding: 8px 20px;
 
         border-radius: 4px;
@@ -57,7 +57,8 @@ const AboutMeStyles = styled.section`
         img {
           pointer-events: none;
 
-          transition: filter 0.15s ease;
+          transition: 0.15s ease;
+          transition-property: filter transform;
 
           filter: ${(props) => props.theme.imageFilter};
         }
@@ -67,6 +68,7 @@ const AboutMeStyles = styled.section`
 
           img {
             filter: ${(props) => props.theme.hoveredImageFilter};
+            transform: translateX(2px) translateY(-2px);
           }
         }
       }
@@ -107,7 +109,8 @@ const AboutMeStyles = styled.section`
       img {
         pointer-events: none;
 
-        transition: filter 0.15s ease;
+        transition: 0.15s ease;
+        transition-property: filter transform;
 
         filter: ${(props) => props.theme.imageFilter};
       }
@@ -117,6 +120,7 @@ const AboutMeStyles = styled.section`
 
         img {
           filter: ${(props) => props.theme.hoveredImageFilter};
+          transform: translateX(2px) translateY(-2px);
         }
       }
     }
@@ -139,16 +143,12 @@ const AboutMeStyles = styled.section`
     padding: 50px 0;
     gap: 50px;
     #about-me-container {
-      align-items: center;
-
       h2 {
         width: 100%;
       }
 
       #social-links {
         flex-direction: column;
-
-        align-items: center;
       }
     }
   }

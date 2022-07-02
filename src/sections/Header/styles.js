@@ -30,12 +30,15 @@ const HeaderStyles = styled.header`
       border-radius: 4px;
       outline: none;
 
+      transform: rotate(0deg);
+
       cursor: pointer;
 
       background-color: ${(props) => props.theme.foreground};
 
       :hover img {
         filter: ${(props) => props.theme.hoveredImageFilter};
+        transform: rotate(-45deg);
       }
 
       img {
@@ -43,7 +46,7 @@ const HeaderStyles = styled.header`
         filter: ${(props) => props.theme.imageFilter};
 
         transition: 0.15s ease;
-        transition-property: filter;
+        transition-property: filter trasnform;
       }
     }
 

@@ -10,6 +10,8 @@ import uiSnippetsIcon from "../../assets/projects-icons/uiSnippetsIcon.png";
 
 import externalIcon from "../../assets/externalIcon.svg";
 
+import githubIcon from "../../assets/social-icons/githubIcon.svg";
+
 import PortfolioStyles from "./styles";
 
 function Portfolio() {
@@ -27,10 +29,12 @@ function Portfolio() {
             <img src={eCommerceIcon} alt="E-Commerce Icon" width={40} />
           </a>
           <div className="project-info">
-            <h3>E-Commerce</h3>
+            <a target="_blank" href="https://e-commerce-antoniopataro.vercel.app/">
+              <h3>E-Commerce</h3>
+            </a>
             <a target="_blank" href="https://github.com/antoniopataro/e-commerce">
               <h4>Code</h4>
-              <img src={externalIcon} alt="Project's Repository" width={12} />
+              <img src={externalIcon} alt="Project's Repository" width={15} />
             </a>
           </div>
         </div>
@@ -39,10 +43,12 @@ function Portfolio() {
             <img src={typerDevIcon} alt="E-Commerce Icon" width={40} />
           </a>
           <div className="project-info">
-            <h3>TyperDev</h3>
+            <a target="_blank" href="https://antoniopataro.github.io/typer-dev/">
+              <h3>TyperDev</h3>
+            </a>
             <a target="_blank" href="https://github.com/antoniopataro/typer-dev">
               <h4>Code</h4>
-              <img src={externalIcon} alt="Project's Repository" width={12} />
+              <img src={externalIcon} alt="Project's Repository" width={15} />
             </a>
           </div>
         </div>
@@ -51,10 +57,12 @@ function Portfolio() {
             <img src={emojiSearcherIcon} alt="Emoji Searcher Icon" width={40} />
           </a>
           <div className="project-info">
-            <h3>Emoji Searcher</h3>
+            <a target="_blank" href="https://antoniopataro.github.io/emoji-searcher/">
+              <h3>Emoji Searcher</h3>
+            </a>
             <a target="_blank" href="https://github.com/antoniopataro/emoji-searcher">
               <h4>Code</h4>
-              <img src={externalIcon} alt="Project's Repository" width={12} />
+              <img src={externalIcon} alt="Project's Repository" width={15} />
             </a>
           </div>
         </div>
@@ -63,10 +71,12 @@ function Portfolio() {
             <img src={toDoListIcon} alt="To-Do Icon" width={40} />
           </a>
           <div className="project-info">
-            <h3>To-Do List</h3>
+            <a target="_blank" href="https://antoniopataro.github.io/todo-app/">
+              <h3>To-Do List</h3>
+            </a>
             <a target="_blank" href="https://github.com/antoniopataro/todo-app">
               <h4>Code</h4>
-              <img src={externalIcon} alt="Project's Repository" width={12} />
+              <img src={externalIcon} alt="Project's Repository" width={15} />
             </a>
           </div>
         </div>
@@ -75,10 +85,12 @@ function Portfolio() {
             <img src={personalWebsiteIcon} alt="Personal Website Icon" width={40} />
           </a>
           <div className="project-info">
-            <h3>Personal Website</h3>
+            <a href="https://antoniopataro.dev/">
+              <h3>Personal Website</h3>
+            </a>
             <a target="_blank" href="https://github.com/antoniopataro/personal-website">
               <h4>Code</h4>
-              <img src={externalIcon} alt="Project's Repository" width={12} />
+              <img src={externalIcon} alt="Project's Repository" width={15} />
             </a>
           </div>
         </div>
@@ -87,15 +99,18 @@ function Portfolio() {
             <img src={uiSnippetsIcon} alt="UI-Snippets Icon" width={40} />
           </a>
           <div className="project-info">
-            <h3>UI-Snippets</h3>
+            <a target="_blank" href="https://antoniopataro.github.io/ui-snippets/">
+              <h3>UI-Snippets</h3>
+            </a>
             <a target="_blank" href="https://github.com/antoniopataro/ui-snippets">
               <h4>Code</h4>
-              <img src={externalIcon} alt="Project's Repository" width={12} />
+              <img src={externalIcon} alt="Project's Repository" width={15} />
             </a>
           </div>
         </div>
       </div>
       <div id="see-more-projects">
+        <img src={githubIcon} alt="Github profile." width={20} />
         <h3>
           See more on{" "}
           <a target="_blank" href="https://github.com/antoniopataro?tab=repositories">

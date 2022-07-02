@@ -37,15 +37,15 @@ function AboutMe() {
         <div id="social-links">
           <a href="https://github.com/antoniopataro" target="_blank">
             <h4>Github</h4>
-            <img src={externalIcon} alt="My Github profile." width={12} />
+            <img src={externalIcon} alt="My Github profile." width={15} />
           </a>
           <a href="https://www.linkedin.com/in/antoniopataro/" target="_blank">
             <h4>LinkedIn</h4>
-            <img src={externalIcon} alt="My LinkedIn profile." width={12} />
+            <img src={externalIcon} alt="My LinkedIn profile." width={15} />
           </a>
           <a href="https://www.instagram.com/antoniopataro/" target="_blank">
             <h4>Instagram</h4>
-            <img src={externalIcon} alt="My Instagram profile." width={12} />
+            <img src={externalIcon} alt="My Instagram profile." width={15} />
           </a>
         </div>
       </div>
@@ -70,7 +70,7 @@ function AboutMe() {
         </h3>
         <a href="https://antoniopataro.notion.site/Ant-nio-Pataro-8baa7d3f636a4b67a631e04db007cbb0" target="_blank">
           <h4>Resume</h4>
-          <img src={externalIcon} alt="My Resume." width={12} />
+          <img src={externalIcon} alt="My Resume." width={15} />
         </a>
       </div>
     </AboutMeStyles>

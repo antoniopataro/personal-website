@@ -86,7 +86,7 @@ const PortfolioStyles = styled.section`
           display: flex;
           flex-direction: row;
 
-          gap: 10px;
+          gap: 4px;
 
           font-weight: 400;
           text-decoration: none;
@@ -102,12 +102,16 @@ const PortfolioStyles = styled.section`
 
           :hover img {
             filter: ${(props) => props.theme.hoveredImageFilter};
+            transform: translateX(2px) translateY(-2px);
           }
         }
 
         img {
           pointer-events: none;
           filter: ${(props) => props.theme.imageFilter};
+
+          transition: 0.15s ease;
+          transition-property: filter transform;
         }
       }
     }
@@ -119,6 +123,7 @@ const PortfolioStyles = styled.section`
     font-weight: 400;
     text-align: center;
 
+    gap: 10px;
     margin: 0 auto;
 
     a {
@@ -126,6 +131,11 @@ const PortfolioStyles = styled.section`
 
       margin-left: 0.25rem;
       color: ${(props) => props.theme.highlightedText};
+    }
+
+    img {
+      pointer-events: none;
+      filter: ${(props) => props.theme.imageFilter};
     }
   }
 
