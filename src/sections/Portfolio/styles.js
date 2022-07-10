@@ -41,6 +41,8 @@ const PortfolioStyles = styled.section`
       gap: 30px;
 
       .project-icon {
+        position: relative;
+
         display: grid;
         place-items: center;
 
@@ -51,7 +53,37 @@ const PortfolioStyles = styled.section`
 
         background-color: ${(props) => props.theme.foreground};
 
+        transition: 0.15s ease;
+        transition-property: background-color;
+
+        overflow: hidden;
+
+        ::before {
+          content: "";
+          position: absolute;
+
+          width: 120px;
+          height: 120px;
+
+          border-radius: 60px;
+
+          background-color: rgba(0, 0, 0, 0.1);
+
+          transform: translateY(120px);
+
+          transition: 0.5s ease;
+          transition-property: transform;
+        }
+
+        img {
+          z-index: 1;
+        }
+
         :hover {
+          ::before {
+            transform: translateY(-0px) rotate(120deg);
+          }
+
           img {
             pointer-events: none;
             animation: shakeIcon 0.5s ease-in-out forwards;
