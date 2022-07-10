@@ -25,14 +25,14 @@ function Portfolio() {
       </div>
       <div id="projects-wrapper">
         <div className="project">
-          <a target="_blank" href="https://e-commerce-antoniopataro.vercel.app/" className="project-icon">
-            <img src={eCommerceIcon} alt="E-Commerce Icon" width={40} />
+          <a target="_blank" href="https://antoniopataro.github.io/dona-clone/" className="project-icon">
+            <img src={toDoListIcon} alt="Dona Clone" width={40} />
           </a>
           <div className="project-info">
-            <a target="_blank" href="https://e-commerce-antoniopataro.vercel.app/">
-              <h3>E-Commerce</h3>
+            <a target="_blank" href="https://antoniopataro.github.io/dona-clone/">
+              <h3>Dona </h3>
             </a>
-            <a target="_blank" href="https://github.com/antoniopataro/e-commerce">
+            <a target="_blank" href="https://github.com/antoniopataro/dona-clone">
               <h4>Code</h4>
               <img src={externalIcon} alt="Project's Repository" width={15} />
             </a>
@@ -53,6 +53,20 @@ function Portfolio() {
           </div>
         </div>
         <div className="project">
+          <a target="_blank" href="https://e-commerce-antoniopataro.vercel.app/" className="project-icon">
+            <img src={eCommerceIcon} alt="E-Commerce Icon" width={40} />
+          </a>
+          <div className="project-info">
+            <a target="_blank" href="https://e-commerce-antoniopataro.vercel.app/">
+              <h3>E-Commerce</h3>
+            </a>
+            <a target="_blank" href="https://github.com/antoniopataro/e-commerce">
+              <h4>Code</h4>
+              <img src={externalIcon} alt="Project's Repository" width={15} />
+            </a>
+          </div>
+        </div>
+        <div className="project">
           <a target="_blank" href="https://antoniopataro.github.io/emoji-searcher/" className="project-icon">
             <img src={emojiSearcherIcon} alt="Emoji Searcher Icon" width={40} />
           </a>
@@ -61,20 +75,6 @@ function Portfolio() {
               <h3>Emoji Searcher</h3>
             </a>
             <a target="_blank" href="https://github.com/antoniopataro/emoji-searcher">
-              <h4>Code</h4>
-              <img src={externalIcon} alt="Project's Repository" width={15} />
-            </a>
-          </div>
-        </div>
-        <div className="project">
-          <a target="_blank" href="https://antoniopataro.github.io/todo-app/" className="project-icon">
-            <img src={toDoListIcon} alt="To-Do Icon" width={40} />
-          </a>
-          <div className="project-info">
-            <a target="_blank" href="https://antoniopataro.github.io/todo-app/">
-              <h3>To-Do List</h3>
-            </a>
-            <a target="_blank" href="https://github.com/antoniopataro/todo-app">
               <h4>Code</h4>
               <img src={externalIcon} alt="Project's Repository" width={15} />
             </a>
