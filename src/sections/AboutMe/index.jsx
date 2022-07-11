@@ -19,16 +19,13 @@ function AboutMe() {
         <h2>About Me</h2>
         <h3>
           <p>
-            I’m a<span className="strong-purple"> self-taught web developer </span>
-            who's
-            <span className="strong-purple"> in love</span> with programming for{" "}
-            <span className="strong-purple">{daysStudying} days</span>.
+            I&apos;m a self-taught<span className="strong-purple"> Front-End Developer </span>
+            who found his <span className="strong-purple">passion</span> in programming{" "}
+            <span className="strong-purple">{daysStudying} days ago.</span>
             <br />
             <br />
-            I'm currently coursing Aerospace Engineering in college. However, I'm looking for a
-            <span className="strong-purple"> professional opportunity</span> as a
-            <span className="strong-purple"> developer</span> so I can change it to{" "}
-            <span className="strong-purple">Computer Science.</span>
+            I'm currently changing my college's course from Aerospace Engineering to Computer Science and looking for my
+            first <span className="strong-purple">professional opportunity.</span>
             <br />
             <br />
             You can find me on:
@@ -49,23 +46,25 @@ function AboutMe() {
           </a>
         </div>
       </div>
-      <div id="stacks">
-        <h2>Stacks</h2>
+      <div id="technologies">
+        <h2>Technologies</h2>
         <h3>
           <p>
-            I started learning web development with
-            <span className="strong-purple"> Javascript</span>, with which I learned{" "}
-            <span className="strong-purple"> HTML</span> and
-            <span className="strong-purple"> CSS</span>.
+            I started learning web development with <span className="strong-purple">Javascript</span>, with which I
+            learned <span className="strong-purple">HTML and CSS.</span>
             <br />
             <br />
-            After I felt confident enough, I dived into
-            <span className="strong-purple"> ReactJS</span>, framework that was basically love at first sight for me.
+            After I felt confident enough, I dived into <span className="strong-purple">
+              ReactJS and Typescript,
+            </span>{" "}
+            what was basically love at first sight for me.
             <br />
             <br />
-            Currently I’m studying the basics of Back-End Development with
-            <span className="strong-purple"> NodeJS</span> and <span className="strong-purple">MySQL</span> and creating
-            projects with <span className="strong-purple">Typescript</span> sometimes.
+            After a while, I mastered the <span className="strong-purple">MERN</span> stack, with{" "}
+            <span className="strong-purple">NodeJS, Express and MongoDB.</span>
+            <br />
+            <br />
+            Currently I&apos;m studying <span className="strong-purple">ReactNative.</span>
           </p>
         </h3>
         <a href="https://antoniopataro.notion.site/Ant-nio-Pataro-8baa7d3f636a4b67a631e04db007cbb0" target="_blank">
