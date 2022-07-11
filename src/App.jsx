@@ -27,11 +27,13 @@ const AppContainer = styled.div`
 
 import "./App.css";
 
-export const ThemeContext = createContext();
+export const ThemeContext = createContext({});
 
 const dark = {
   primary: "#676CDB",
   primaryShadow: "rgba(103, 108, 219, 0.15)",
+  whiteShadow: "#1a1b1e",
+  blackShadow: "#232528",
   background: "#1E2023",
   foreground: "#303238",
   inactiveText: "#6f6f6f",
@@ -44,6 +46,8 @@ const dark = {
 const light = {
   primary: "#676CDB",
   primaryShadow: "rgba(103, 108, 219, 0.15)",
+  whiteShadow: "#b8b8b8",
+  blackShadow: "#fafafa",
   background: "#D9D9D9",
   foreground: "#FFF",
   inactiveText: "#6f6f6f",

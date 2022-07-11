@@ -51,6 +51,9 @@ const PortfolioStyles = styled.section`
 
         border-radius: 4px;
 
+        box-shadow: 5px 5px 10px ${(props) => props.theme.whiteShadow},
+          -5px -5px 10px ${(props) => props.theme.blackShadow};
+
         background-color: ${(props) => props.theme.foreground};
 
         transition: 0.15s ease;

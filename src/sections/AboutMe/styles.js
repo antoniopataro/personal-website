@@ -44,6 +44,8 @@ const AboutMeStyles = styled.section`
 
         text-decoration: none;
 
+        box-shadow: inset 0.5px 0.5px 0.5px rgba(255, 255, 255, 0.25), 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.25);
+
         color: ${(props) => props.theme.inactiveText};
         background-color: ${(props) => props.theme.foreground};
 
@@ -75,7 +77,7 @@ const AboutMeStyles = styled.section`
     }
   }
 
-  #stacks {
+  #technologies {
     display: flex;
     flex-direction: column;
 
@@ -95,6 +97,8 @@ const AboutMeStyles = styled.section`
       border-radius: 4px;
 
       text-decoration: none;
+
+      box-shadow: inset 0.5px 0.5px 0.5px rgba(255, 255, 255, 0.25), 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.25);
 
       color: ${(props) => props.theme.inactiveText};
       background-color: ${(props) => props.theme.foreground};

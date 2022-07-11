@@ -34,6 +34,8 @@ const HeaderStyles = styled.header`
 
       cursor: pointer;
 
+      box-shadow: inset 0.5px 0.5px 0.5px rgba(255, 255, 255, 0.25), 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.25);
+
       background-color: ${(props) => props.theme.foreground};
 
       :hover img {
