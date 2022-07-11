@@ -82,7 +82,7 @@ const IntroductionStyles = styled.section`
 
         background-color: ${(props) => props.theme.inactiveText};
 
-        animation: upAndDown alternate infinite 0.5s ease-out;
+        animation: upAndDown alternate infinite 0.5s ease-in;
 
         @keyframes upAndDown {
           0% {
