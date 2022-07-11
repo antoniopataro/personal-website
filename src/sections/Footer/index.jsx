@@ -103,19 +103,7 @@ function Footer() {
             </a>
             <br />
             <br />
-            <span id="figma">
-              This page's{" "}
-              <a
-                href="https://www.figma.com/file/cibaFLJNSHOa8dKKn3V9Mo/Personal-Website?node-id=272%3A31"
-                target="_blank"
-              >
-                Figma
-              </a>
-              .
-              <br />
-              <br />
-              You can press Ctrl + Q to toggle the theme.
-            </span>
+            <span id="figma">You can press Ctrl + Q to toggle the theme.</span>
           </p>
         </h4>
       </div>
