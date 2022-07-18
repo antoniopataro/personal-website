@@ -1,0 +1,107 @@
+[
+  {
+    "path": "dona",
+    "title": "Dona",
+    "about": {
+      "br": "Dona é, na verdade, clone de <a href='https://dona.ai/' target={'_blank'}>um projeto de to-do list</a> que está atualmente em Beta.<br /><br />Eu não coloquei o nome de Dona Clone para que as pessoas não percam o interesse em explorar esse projeto. Foi um dos mais bonitos que já construí até agora.",
+      "en": "Dona is actually a clone of <a href='https://dona.ai/' target={'_blank'}>a to-do list project</a> which is currently in Beta.<br /><br />I didn't name it Dona Clone so people won't lose interest exploring this project. It is one of the most beautiful I've managed to build so far."
+    },
+    "how": {
+      "br": "Criei o projeto utilizando o Vite como plugin. Escolhi o React como framework e utilizei Typescript, é claro.<br /><br />Estilizei usando o Styled Components, utilizei UUID para IDs únicos de cada task ou lista e React Calendar para construir a feature de calendário.<br /><br />Por ser um clone, decidi salvar todas as informações dentro do localStorage do navegador do usuário, deixando de lado o Back-End.",
+      "en": "I created this project using Vite as its plugin. Chose React as framework and used Typescript, of course.<br /><br />Styled the project using Styled Components, used UUID for unique IDs to each task or list and React Calendar to build the calendar feature.<br /><br />Since it is a clone, I decided to store everything inside user browser's localStorage and leave Back-End matters aside."
+    },
+    "code": "https://github.com/antoniopataro/dona-clone",
+    "demo": "https://antoniopataro.github.io/dona-clone/",
+    "year": "2022"
+  },
+  {
+    "path": "typer-dev",
+    "title": "TyperDev",
+    "about": {
+      "br": "TyperDev é um aplicativo on-line no qual você pode treinar a sua velocidade de digitação com palavras relacionadas a programação.<br /><br />Essa ideia surgiu quando eu estava procurando um novo teclaod para comprar.<br /><br />Ainda falta a API com palavras unicamente relacionadas a desenvolvimento, mas o programa funciona como esperado com o sample text que está lá.",
+      "en": "TyperDev is an on-line app in which you can practice your typing speed with programming keywords.<br /><br />This was an idea that came up when I was looking for a new keyboard to buy.<br /><br />It still needs an API with programming related keywords, but it works accordingly with a sample text."
+    },
+    "how": {
+      "br": "Criei o projeto utilizando o Vite como plugin. Escolhi o React como framework e utilizei Typescript, é claro.<br /><br />Estilizei usando o Styled Components e criei as suas rotas utilizando o React Router Dom.<br /><br />Foi o primeiro projeto em que fiz o Back-End na mão, utilizando a stack MERN: MongoDB, Express, ReactJS e NodeJS.<br /><br />Utilizei o axios para aumentar a produtividade na aquisição de dados, o bcrypt para encriptar as informações necessárias e o Mongoose como ORM.",
+      "en": "I created this project using Vite as plugin. Chose React as framework and used Typescript, of course.<br /><br />Styled the project using Styled Components and created its routes using React Router Dom.<br /><br />It's the first project I handmade the Back-End logic using the MERN stack: MongoDB, Express, ReactJS and NodeJS.<br /><br />Used axios to increase productivity when it comes down to fetching data, bcrypt to encrpt data and Mongoose as ORM."
+    },
+    "code": "https://github.com/antoniopataro/typer-dev",
+    "demo": "https://antoniopataro.github.io/typer-dev/",
+    "year": "2022"
+  },
+  {
+    "path": "e-commerce",
+    "title": "E-Commerce",
+    "about": {
+      "br": "Esse foi o meu primeiro projeto com o NextJS, um refactor de um e-commerce antigo que eu havia feito com React.<br /><br />Queria testar as minhas habilidades como um programador de 3 meses de idade.",
+      "en": "This is my first NextJS project, a refactor of an old e-commerce I've made using React.<br /><br />I wanted to test out my skills as a 3 month old programmer at that time."
+    },
+    "how": {
+      "br": "Criei o projeto utilizando o Vite como plugin. Escolhi o React como framework - tinha medo de Typescript na época.<br /><br />Estilizei usando o Styled Components, utilizei o UUID para dar IDs únicos para os produtos e o Redux para gerenciar estados compartilhados - principalmente por medo da ContextAPI na época. Entretanto, foi uma boa escolha.",
+      "en": "I created this project using Vite as its plugin. Chose React as framework - I was afraid of Typescript util then.<br /><br />Styled the project using Styled Components, used UUID for unique IDs for each product and Redux to manage shared states between components - mainly because I was afraid of ContextAPI until then. However, it was a good choice."
+    },
+    "code": "https://github.com/antoniopataro/e-commerce",
+    "demo": "https://e-commerce-antoniopataro.vercel.app/",
+    "year": "2022"
+  },
+  {
+    "path": "emoji-searcher",
+    "title": "Emoji Searcher",
+    "about": {
+      "br": "Esse é um simples Emoji Searcher. Fiz, sobretudo, para testar minhas habilidades com o React, mas depois comecei a focar em melhorar a UI e usabilidade, implementando atalhos e animações.",
+      "en": "This is a simple Emoji Searcher app. Did it mainly to test my React skill, but later on I focused on improving its UI and usability, implementing shortcuts and animations."
+    },
+    "how": {
+      "br": "Criei o projeto utilizando o Vite como plugin. Escolhi o React como framework - tinha medo de Typescript na época.<br /><br />Estilizei usando o Styled Components e utilizei o Redux para gerenciar estados compartilhados, o que foi uma escolha ruim por overkill: não há necessidade de usar o Redux em um projeto como esse. Eu só tinha medo da ContextAPI na época.",
+      "en": "I created this project using Vite as its plugin. Chose React as framework - I was afraid of Typescript util then.<br /><br />Styled the project using Styled Components and used Redux to manage shared states between components, which was a bad choice due to overkill: there's no need for Redux. I was just scared of ContextAPI at the time."
+    },
+    "code": "https://github.com/antoniopataro/emoji-searcher",
+    "demo": "https://antoniopataro.github.io/emoji-searcher/",
+    "year": "2022"
+  },
+  {
+    "path": "ui-snippets",
+    "title": "UI Snippets",
+    "about": {
+      "br": "O intuito desse projeto é de servir como um lugar no qual eu posso guardar alguns conceitos de design no CSS.<br /><br />Precisa de uma atualização.",
+      "en": "This project's intent is to serve as some kind of storage to some of my CSS concepts.<br /><br />Need to update it."
+    },
+    "how": {
+      "br": "Foi criado da mesma forma que a maioria dos outros, mas sem Typescript.",
+      "en": "This project was created same way as most of the others, but without Typescript."
+    },
+    "code": "https://github.com/antoniopataro/ui-snippets",
+    "demo": "https://antoniopataro.github.io/ui-snippets/",
+    "year": "2022"
+  },
+  {
+    "path": "js-calculator",
+    "title": "JS Calculator",
+    "about": {
+      "br": "Esse foi um pequeno projeto para testar minhas habilidades com Javascript puro. Às vezes a gente se acostuma tanto a utilizar um framework, como o ReactJS, que esquecemos como as coisas são feitas com a linguagem pura.",
+      "en": "This is a short project I did to test my pure Javascript skills. Sometimes we get so deep in using a framework, like ReactJS, that we forget how things are done in a raw way."
+    },
+    "how": {
+      "br": "Usei Javascript puro com CSS e HTML.",
+      "en": "Used pure Javascript, CSS and HTML."
+    },
+    "code": "https://github.com/antoniopataro/js-calculator",
+    "demo": "https://antoniopataro.github.io/js-calculator/",
+    "year": "2022"
+  },
+  {
+    "path": "em-suma",
+    "title": "Em Suma",
+    "about": {
+      "br": "Em Suma foi uma start-up de educação que eu e um amigo criamos no começo de 2021. O seu propósito era ser uma plataforma de educação on-line relacionada à principal prova de admissão para Universidades no Brasil, o Exame Nacional do Ensino Médio (ENEM).<br /><br />Eu estava fortemente ativo na construção do Design do produto, mas também acompanhei o desenvolvimento do projeto, que foi dirigito pelo meu mano <a href='https://cabraljv.dev/' target={'_blank'}>João.<a/><br /><br />Aprendi muito na época.",
+      "en": "Em Suma was an educational start-up that me and a friend of mine created in the beginning of 2021. It was meant to be an on-line educational plataform related to Brazil's main University admission exam, the <a href='https://en.wikipedia.org/wiki/Exame_Nacional_do_Ensino_M%C3%A9dio' target={'_blank'}>Exame Nacional do Ensino Médio (ENEM).</a><br /><br />I was strongly active on its Design but also keeped up with its development, which was leaded by my bro <a href='https://cabraljv.dev/' target={'_blank'}>João.<a/><br /><br />Learned a lot at the time."
+    },
+    "how": {
+      "br": "Como dito, eu fiquei mais focado na criação do Design. Assim, João protagonizou no que concerne ao desenvolvimento do software, construindo-o com ReactJS, Typescript, NodeJS, hospedando na AWS e por aí vai. É realmente uma aplicação bem sólida.",
+      "en": "As said, I was more focused on its Design. Therefore, João protagonized when it comes to development building it with ReactJS, Typescript, NodeJS, hosting on AWS and so on. It is a really solid creation."
+    },
+    "code": "https://github.com/emsuma",
+    "demo": "https://emsuma.com.br/",
+    "year": "2021 "
+  }
+]
