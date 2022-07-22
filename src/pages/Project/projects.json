@@ -7,8 +7,8 @@
       "en": "Dona is actually a clone of <a href='https://dona.ai/' target={'_blank'}>a to-do list project</a> which is currently in Beta.<br /><br />I didn't name it Dona Clone so people won't lose interest exploring this project. It is one of the most beautiful I've managed to build so far."
     },
     "how": {
-      "br": "Criei o projeto utilizando o Vite como plugin. Escolhi o React como framework e utilizei Typescript, é claro.<br /><br />Estilizei usando o Styled Components, utilizei UUID para IDs únicos de cada task ou lista e React Calendar para construir a feature de calendário.<br /><br />Por ser um clone, decidi salvar todas as informações dentro do localStorage do navegador do usuário, deixando de lado o Back-End.",
-      "en": "I created this project using Vite as its plugin. Chose React as framework and used Typescript, of course.<br /><br />Styled the project using Styled Components, used UUID for unique IDs to each task or list and React Calendar to build the calendar feature.<br /><br />Since it is a clone, I decided to store everything inside user browser's localStorage and leave Back-End matters aside."
+      "br": "Criei o projeto utilizando o Vite como plugin. Escolhi o React como framework e utilizei Typescript, é claro.<br /><br />Estilizei usando o Styled Components, utilizei UUID para IDs únicos de cada task ou lista, React Beautiful DND para Drag and Drop e React Calendar para construir a feature de calendário.<br /><br />Por ser um clone, decidi salvar todas as informações dentro do localStorage do navegador do usuário, deixando de lado o Back-End.",
+      "en": "I created this project using Vite as its plugin. Chose React as framework and used Typescript, of course.<br /><br />Styled the project using Styled Components, used UUID for unique IDs to each task or list, React Beautiful DND for Drag and Drop and React Calendar to build the calendar feature.<br /><br />Since it is a clone, I decided to store everything inside user browser's localStorage and leave Back-End matters aside."
     },
     "code": "https://github.com/antoniopataro/dona-clone",
     "demo": "https://antoniopataro.github.io/dona-clone/",
