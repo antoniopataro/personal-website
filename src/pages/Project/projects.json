@@ -33,12 +33,12 @@
     "path": "e-commerce",
     "title": "E-Commerce",
     "about": {
-      "br": "Esse foi o meu primeiro projeto com o NextJS, um refactor de um e-commerce antigo que eu havia feito com React.<br /><br />Queria testar as minhas habilidades como um programador de 3 meses de idade.",
-      "en": "This is my first NextJS project, a refactor of an old e-commerce I've made using React.<br /><br />I wanted to test out my skills as a 3 month old programmer at that time."
+      "br": "Esse foi o meu primeiro projeto com o NextJS, um refactor de um e-commerce antigo que eu havia feito com React. Também foi o primeiro com Typescript.<br /><br />Queria testar as minhas habilidades como um programador de 3 meses de idade.",
+      "en": "This is my first NextJS project, a refactor of an old e-commerce I've made using React. Also my first using Typescript.<br /><br />I wanted to test out my skills as a 3 month old programmer at that time."
     },
     "how": {
-      "br": "Criei o projeto utilizando o Vite como plugin. Escolhi o React como framework - tinha medo de Typescript na época.<br /><br />Estilizei usando o Styled Components, utilizei o UUID para dar IDs únicos para os produtos e o Redux para gerenciar estados compartilhados - principalmente por medo da ContextAPI na época. Entretanto, foi uma boa escolha.",
-      "en": "I created this project using Vite as its plugin. Chose React as framework - I was afraid of Typescript util then.<br /><br />Styled the project using Styled Components, used UUID for unique IDs for each product and Redux to manage shared states between components - mainly because I was afraid of ContextAPI until then. However, it was a good choice."
+      "br": "Usei Typescript e @ts-ignore 🤣 nesse projeto.<br /><br />Criei o projeto utilizando o Vite como plugin. Escolhi o NextJS como framework. Esse projeto marca os meus primeiros passos com Typescript, por isso tem tantos @ts-ignores.<br /><br />Estilizei usando o Styled Components, utilizei o UUID para dar IDs únicos para os produtos e o Redux para gerenciar estados compartilhados. O qye foi uma boa escolha devido à complexidade do projeto.",
+      "en": "Used Typescript and @ts-ignore 🤣 on this project.<br /><br />I created this project using Vite as its plugin. Chose NextJS as framework. It marks my first steps using `Typescript`, that's why there are so many @ts-ignores.<br /><br />Styled the project using Styled Components, used UUID for unique IDs for each product and Redux to manage shared states between components. A good choice due to this project's complexity."
     },
     "code": "https://github.com/antoniopataro/e-commerce",
     "demo": "https://e-commerce-antoniopataro.vercel.app/",
