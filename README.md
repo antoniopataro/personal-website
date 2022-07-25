@@ -8,7 +8,7 @@ Feel free to share thoughts to me and get in touch.
 
 ### 📃 History
 
-Some time ago, it was my first `ReactJS` project. 🥲
+Some time ago, it was my first `React` project. 🥲
 
 You can find this and some older desings for my personal website in this [figma file](https://www.figma.com/file/cibaFLJNSHOa8dKKn3V9Mo/Personal-Website?node-id=272%3A31).
 
@@ -18,7 +18,7 @@ Even though it is kinda of overkill to create a personal website (portolio-like)
 
 I created this project using `Vite` as its plugin. Chose `React` as framework and used `Typescript`, of course.
 
-Styled the project using `styled-components`, `react-beautiful-dnd` for Drag and Drop and `react-router-dom` for routing.
+Styled the project using `styled-components` and used `react-router-dom` for routing.
 
 <div style="display: inline_block"><br>
 <img align="center" alt="ReactJS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
