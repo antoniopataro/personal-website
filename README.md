@@ -21,8 +21,8 @@ I created this project using `Vite` as its plugin. Chose `React` as framework an
 Styled the project using `styled-components` and used `react-router-dom` for routing.
 
 <div style="display: inline_block"><br>
-<img align="center" alt="ReactJS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-  <img align="center" alt="Typescript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
-  <img align="center" alt="Styled Components" height="30" width="40" src="https://user-images.githubusercontent.com/87823281/180796443-4c332fa5-94c7-4aa2-a9b3-775d16e62f62.svg">
-  <img align="center" alt="Figma" height="30" width="40" src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg">
+<img align="center" title="ReactJS" alt="ReactJS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img align="center" alt="Typescript" title="Typescript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
+  <img align="center" alt="Styled Components" title="Styled Components" height="30" width="40" src="https://user-images.githubusercontent.com/87823281/180796443-4c332fa5-94c7-4aa2-a9b3-775d16e62f62.svg">
+  <img align="center" alt="Figma" title="Figma" height="30" width="40" src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg">
 </div>
