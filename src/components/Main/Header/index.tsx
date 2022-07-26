@@ -25,13 +25,14 @@ function Header() {
           <div className="info">
             <span className="name">
               <h2>Antônio Pataro</h2>
-              <img src={brFlag} alt="Brazil" width={16} height={16} />
+              <img src={brFlag} alt={language === "en" ? "Brazil" : "Brasil"} width={16} height={16} />
             </span>
             <h4>{language === "en" ? "Developer and Designer" : "Desenvolvedor e Designer"}</h4>
           </div>
         </div>
         <div className="right">
           <a
+            data-title="Resume"
             href={
               language === "en"
                 ? "https://www.notion.so/antoniopataro/Ant-nio-Pataro-8baa7d3f636a4b67a631e04db007cbb0"
@@ -41,7 +42,7 @@ function Header() {
           >
             <img src={paperClipIcon} alt="Current Language" width={15} />
           </a>
-          <button onClick={changeLanguage}>
+          <button data-title="Language" onClick={changeLanguage}>
             <img src={languageIcon} alt="Current Language" width={20} />
           </button>
         </div>

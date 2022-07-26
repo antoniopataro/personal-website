@@ -67,6 +67,12 @@ const HeaderStyles = styled.section`
 
       button,
       a {
+        position: relative;
+
+        ::after {
+          top: -70%;
+        }
+
         display: grid;
         place-items: center;
 

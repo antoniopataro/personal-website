@@ -38,10 +38,19 @@ const TechnologiesStyles = styled.section`
 
       opacity: 0;
 
-      img {
-        height: fit-content;
+      a {
+        position: relative;
 
-        pointer-events: none;
+        display: grid;
+        place-items: center;
+
+        margin: 0 auto;
+
+        img {
+          height: fit-content;
+
+          pointer-events: none;
+        }
       }
     }
   }

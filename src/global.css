@@ -57,6 +57,18 @@ h4 {
   color: #7e7e7e;
 }
 
+code {
+  font-family: "Fira Code", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+
+  padding: 0px 4px;
+
+  border-radius: 4px;
+
+  background-color: var(--foreground);
+}
+
 ::-webkit-scrollbar {
   width: 0;
   height: 0;
@@ -64,4 +76,32 @@ h4 {
 
 ::selection {
   background-color: #4a4a4a;
+}
+
+a:hover::after,
+button:hover::after {
+  content: attr(data-title);
+  position: absolute;
+  top: -120%;
+
+  font-size: 14px;
+
+  padding: 4px 8px;
+  margin: 0 auto;
+
+  border-radius: 4px;
+
+  color: #d9d9d9;
+  background-color: var(--foreground);
+
+  animation: fadeIn 0.15s ease forwards;
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 }
