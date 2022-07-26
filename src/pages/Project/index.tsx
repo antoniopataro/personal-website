@@ -7,6 +7,7 @@ import About from "../../components/Projects/About";
 import How from "../../components/Projects/How";
 
 import demoDona from "../../assets/project-videos/demo-dona.mp4";
+import demoMissedClasses from "../../assets/project-videos/demo-missed-classes.mp4";
 import demoECommerce from "../../assets/project-videos/demo-e-commerce.mp4";
 import demoEmojiSearcher from "../../assets/project-videos/demo-emoji-searcher.mp4";
 import demoEmSuma from "../../assets/project-videos/demo-em-suma.mp4";
@@ -49,22 +50,28 @@ function Project() {
     return;
   }, []);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
   const handleVideo = () => {
     switch (project?.path) {
       case "dona":
         return demoDona;
-      case "e-commerce":
-        return demoECommerce;
-      case "emoji-searcher":
-        return demoEmojiSearcher;
-      case "em-suma":
-        return demoEmSuma;
-      case "js-calculator":
-        return demoJSCalculator;
+      case "missed-classes":
+        return demoMissedClasses;
       case "typer-dev":
         return demoTyperDev;
+      case "emoji-searcher":
+        return demoECommerce;
       case "ui-snippets":
+        return demoEmojiSearcher;
+      case "js-calculator":
+        return demoJSCalculator;
+      case "e-commerce":
         return demoUISnippets;
+      case "em-suma":
+        return demoEmSuma;
       default:
         return "";
     }
@@ -73,7 +80,7 @@ function Project() {
   return (
     <ProjectStyles>
       <Header project={project as Project} />
-      <video className="video" autoPlay loop>
+      <video muted className="video" autoPlay loop>
         <source src={handleVideo()} type="video/mp4" />
       </video>
       <About project={project as Project} />

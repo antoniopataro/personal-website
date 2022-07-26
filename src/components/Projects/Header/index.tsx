@@ -44,12 +44,14 @@ function Header({ project }: HeaderProps) {
               <img src={diagonalArrow} alt="External Link" width={12} />
             </h3>
           </a>
-          <a href={project?.demo} target={"_blank"}>
-            <h3>
-              {language === "en" ? "Test it out" : "Demonstração"}
-              <img src={diagonalArrow} alt="External Link" width={12} />
-            </h3>
-          </a>
+          {project?.demo && (
+            <a href={project?.demo} target={"_blank"}>
+              <h3>
+                {language === "en" ? "Test it out" : "Demonstração"}
+                <img src={diagonalArrow} alt="External Link" width={12} />
+              </h3>
+            </a>
+          )}
         </span>
       </div>
     </HeaderStyles>

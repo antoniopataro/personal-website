@@ -9,40 +9,44 @@ import cssIcon from "../../../assets/technologies/cssIcon.png";
 import javascriptIcon from "../../../assets/technologies/javascriptIcon.png";
 import typescriptIcon from "../../../assets/technologies/typescriptIcon.png";
 import reactJsIcon from "../../../assets/technologies/reactJsIcon.png";
+import reactNativeIcon from "../../../assets/technologies/reactNativeIcon.png";
 import nextJsIcon from "../../../assets/technologies/nextJsIcon.png";
 import nodeJsIcon from "../../../assets/technologies/nodeJsIcon.png";
 import expressIcon from "../../../assets/technologies/expressIcon.png";
 import mongoDbIcon from "../../../assets/technologies/mongoDbIcon.png";
 import gitIcon from "../../../assets/technologies/gitIcon.png";
+import pythonIcon from "../../../assets/technologies/pythonIcon.png";
 import figmaIcon from "../../../assets/technologies/figmaIcon.png";
 
 const technologies = [
-  { name: "HTML", img: htmlIcon },
-  { name: "CSS", img: cssIcon },
-  { name: "Javascript", img: javascriptIcon },
-  { name: "Typescript", img: typescriptIcon },
-  { name: "ReactJS", img: reactJsIcon },
-  { name: "NextJS", img: nextJsIcon },
-  { name: "NodeJS", img: nodeJsIcon },
-  { name: "Express", img: expressIcon },
-  { name: "MongoDB", img: mongoDbIcon },
-  { name: "Git", img: gitIcon },
-  { name: "Figma", img: figmaIcon },
+  { name: "HTML", img: htmlIcon, url: "https://developer.mozilla.org/pt-BR/docs/Web/HTML" },
+  { name: "CSS", img: cssIcon, url: "https://www.w3schools.com/css/" },
+  { name: "Javascript", img: javascriptIcon, url: "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" },
+  { name: "Typescript", img: typescriptIcon, url: "https://www.typescriptlang.org/" },
+  { name: "ReactJS", img: reactJsIcon, url: "https://reactjs.org/" },
+  { name: "React Native", img: reactNativeIcon, url: "https://reactnative.dev/" },
+  { name: "NextJS", img: nextJsIcon, url: "https://nextjs.org/" },
+  { name: "NodeJS", img: nodeJsIcon, url: "https://nodejs.org/" },
+  { name: "Express", img: expressIcon, url: "https://expressjs.com/" },
+  { name: "MongoDB", img: mongoDbIcon, url: "https://www.mongodb.com/" },
+  { name: "Git", img: gitIcon, url: "https://git-scm.com/" },
+  { name: "Python", img: pythonIcon, url: "https://www.python.org/" },
+  { name: "Figma", img: figmaIcon, url: "https://www.figma.com/" },
 ];
 
 const en1 =
-  "First two months I learned Javascript, with which I learned HTML and CSS. After I felt confident enough, I dived into React and Typescript, what was basically love at first sight.";
+  "First two months I learned <code>Javascript</code>, with which I learned <code>HTML</code> and <code>CSS</code>. After I felt confident enough, I dived into <code>React</code> and <code>Typescript</code>, what was basically love at first sight.";
 const en2 =
-  "Two months later, I was in touch with NextJS and already creating a project with NodeJS, Express and MongoDB.";
+  "Two months later, I was in touch with <code>NextJS</code> and already creating a project with <code>NodeJS</code>, <code>Express</code> and <code>MongoDB</code>.";
 const en3 =
-  "Currently I'm studying ReactNative and getting deeper in touch with the fundamentals of Back-End Development and Architecture.";
+  "Recently, I got confident with <code>React Native</code> and, now, I'm getting deeper in touch with the fundamentals of Back-End Development and Architecture and solving code challenges with <code>Python</code>.";
 
 const br1 =
-  "Nos primeiros dois meses, aprendi Javascript, tecnologia com a quala prendi HTML e CSS. Depois de eu me sentir confiante o suficiente, mergulhei no React e no Typescript, tecnologias que foram amor à primeira vista.";
+  "Nos primeiros dois meses, aprendi <code>Javascript</code>, tecnologia com a qual aprendi <code>HTML</code> e <code>CSS</code>. Depois de me sentir confiante o suficiente, mergulhei no <code>React</code> e no <code>Typescript</code>, tecnologias que foram amor à primeira vista.";
 const br2 =
-  "Dois meses depois, eu estava entrando em contato com o NextJS e criando um projeto com NodeJS, Express e MongoDB.";
+  "Dois meses depois, eu estava entrando em contato com o <code>NextJS</code> e criando um projeto com <code>NodeJS</code>, <code>Express</code> e <code>MongoDB</code>.";
 const br3 =
-  "Atualmente estou estudando ReactNative e me aprofundando nos fundamentos do Desenvolvimento e da Arquitetura Back-End.";
+  "Recentemente peguei confiança com <code>React Native</code> e, agora, tenho me aprofundado nos fundamentos do Desenvolvimento e da Arquitetura Back-End e resolvido desafios com <code>Python</code>.";
 
 function Technologies() {
   const { language } = useContext(Language);
@@ -51,18 +55,20 @@ function Technologies() {
     <TechnologiesStyles>
       <h2>{language === "en" ? "Technologies" : "Tecnologias"}</h2>
       <h3>
-        {language === "en" ? en1 : br1}
+        <span dangerouslySetInnerHTML={{ __html: language === "en" ? en1 : br1 }}></span>
         <br />
         <br />
-        {language === "en" ? en2 : br2}
+        <span dangerouslySetInnerHTML={{ __html: language === "en" ? en2 : br2 }}></span>
         <br />
         <br />
-        {language === "en" ? en3 : br3}
+        <span dangerouslySetInnerHTML={{ __html: language === "en" ? en3 : br3 }}></span>
       </h3>
       <ul>
         {technologies.map((technology, index) => (
           <li key={index} style={{ animation: `fadeIn .15s ${0.15 * index}s ease forwards` }}>
-            <img title={technology.name} src={technology.img} alt={technology.name} width={30} height={30} />
+            <a data-title={technology.name} href={technology.url} target={"_blank"}>
+              <img src={technology.img} alt={technology.name} width={30} height={30} />
+            </a>
           </li>
         ))}
       </ul>

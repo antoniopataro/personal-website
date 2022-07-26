@@ -7,11 +7,26 @@
       "en": "Dona is actually a clone of <a href='https://dona.ai/' target={'_blank'}>a to-do list project</a> which is currently in Beta.<br /><br />I didn't name it Dona Clone so people won't lose interest exploring this project. It is one of the most beautiful I've managed to build so far."
     },
     "how": {
-      "br": "Criei o projeto utilizando o Vite como plugin. Escolhi o React como framework e utilizei Typescript, é claro.<br /><br />Estilizei usando o Styled Components, utilizei UUID para IDs únicos de cada task ou lista, React Beautiful DND para Drag and Drop e React Calendar para construir a feature de calendário.<br /><br />Por ser um clone, decidi salvar todas as informações dentro do localStorage do navegador do usuário, deixando de lado o Back-End.",
-      "en": "I created this project using Vite as its plugin. Chose React as framework and used Typescript, of course.<br /><br />Styled the project using Styled Components, used UUID for unique IDs to each task or list, React Beautiful DND for Drag and Drop and React Calendar to build the calendar feature.<br /><br />Since it is a clone, I decided to store everything inside user browser's localStorage and leave Back-End matters aside."
+      "br": "Criei esse projeto utilizando o <code>Vite</code> como plugin. Escolhi o <code>React</code> como framework e utilizei <code>Typescript</code>, é claro.<br /><br />Estilizei usando o <code>styled-components</code>, utilizei <code>uuidv4</code> para IDs únicos de cada task ou lista, <code>react-beautiful-dnd</code> para Drag and Drop e <code>react-calendar</code> para construir a feature de calendário.<br /><br />Por ser um clone, decidi salvar todas as informações dentro do <code>localStorage</code> do navegador do usuário, deixando de lado o Back-End.",
+      "en": "I created this project using <code>Vite</code> as its plugin. Chose <code>React</code> as framework and used <code>Typescript</code>, of course.<br /><br />Styled the project using <code>styled-components</code>, used <code>uuidv4</code> for unique IDs to each task or list, <code>react-beautiful-dnd</code> for Drag and Drop and <code>react-calendar</code> to build the calendar feature.<br /><br />Since it is a clone, I decided to store everything inside user browser's <code>localStorage</code> and leave Back-End matters aside."
     },
     "code": "https://github.com/antoniopataro/dona-clone",
     "demo": "https://antoniopataro.github.io/dona-clone/",
+    "year": "2022"
+  },
+  {
+    "path": "missed-classes",
+    "title": "Missed Classes",
+    "about": {
+      "br": "Esse projeto foi feito com base em uma necessidade minha.<br /><br />Faltar aula às vezes é inevitável: problemas de sáude, cansaço e até para estudar oturas coisas. Entretanto, acho muito difícil saber quantas aulas faltei no meu período, bem como quantas aulas ainda posso faltar sem reprovar.<br /><br />Assim, decidi criar um aplicativo mobile para solucionar esse problema.",
+      "en": "This project was created based on a personal need.<br/><br/>Skip class is inevitable sometimes: health issues, exhaustion or even to study something else. However, I find it hard to keep track of how many classes I've skipped and of how many I can skip withuot failing.<br/><br/>Therefore, I decided to create a mobile app to solve this problem."
+    },
+    "how": {
+      "br": "Criei esse projeto utilizando o <code>Expo</code> como plugin. Escolhi o <code>ReactNative</code> como framework e utilizei <code>Typescript</code>, é claro.<br /><br />Estilizei usando o <code>styled-components</code>, utilizei <code>uuidv4</code> para IDs únicos de cada aula e <code>async-storage</code> para salvar as informações necessárias mesmo após reinicialização do aplicativo.",
+      "en": "I created this project using <code>Expo</code> as its plugin. Chose <code>ReactNative</code> as framework and used <code>Typescript</code>, of course.<br /><br />Styled the project using <code>styled-components</code>, used <code>uuidv4</code> for unique IDs to each class and <code>async-storage</code> to persist necessary information even after the app has been closed and restarted."
+    },
+    "code": "https://github.com/antoniopataro/missed-classes",
+    "demo": "",
     "year": "2022"
   },
   {
@@ -22,8 +37,8 @@
       "en": "TyperDev is an on-line app in which you can practice your typing speed with programming keywords.<br /><br />This was an idea that came up when I was looking for a new keyboard to buy.<br /><br />It still needs an API with programming related keywords, but it works accordingly with a sample text."
     },
     "how": {
-      "br": "Criei o projeto utilizando o Vite como plugin. Escolhi o React como framework e utilizei Typescript, é claro.<br /><br />Estilizei usando o Styled Components e criei as suas rotas utilizando o React Router Dom.<br /><br />Foi o primeiro projeto em que fiz o Back-End na mão, utilizando a stack MERN: MongoDB, Express, ReactJS e NodeJS.<br /><br />Utilizei o axios para aumentar a produtividade na aquisição de dados, o bcrypt para encriptar as informações necessárias e o Mongoose como ORM.",
-      "en": "I created this project using Vite as plugin. Chose React as framework and used Typescript, of course.<br /><br />Styled the project using Styled Components and created its routes using React Router Dom.<br /><br />It's the first project I handmade the Back-End logic using the MERN stack: MongoDB, Express, ReactJS and NodeJS.<br /><br />Used axios to increase productivity when it comes down to fetching data, bcrypt to encrpt data and Mongoose as ORM."
+      "br": "Criei esse projeto utilizando o <code>Vite</code> como plugin. Escolhi o <code>React</code> como framework e utilizei <code>Typescript</code>, é claro.<br /><br />Estilizei usando o <code>styled-components</code> e criei as suas rotas utilizando o <code>react-router-dom</code>.<br /><br />Foi o primeiro projeto em que fiz o Back-End na mão, utilizando a stack MERN: <code>MongoDB</code>, <code>express</code>, <code>React</code> e <code>Node</code>.<br /><br />Utilizei o <code>axios</code> para aumentar a produtividade na aquisição de dados, o <code>bcrypt</code> para encriptar as informações necessárias e o <code>Mongoose</code> como ORM.",
+      "en": "I created this project using <code>Vite</code> as its plugin. Chose <code>React</code> as framework and used <code>Typescript</code>, of course.<br /><br />Styled the project using <code>styled-components</code> and created its routes using <code>react-router-dom</code>.<br /><br />It's the first project I handmade the Back-End logic using the MERN stack: <code>MongoDB</code>, <code>express</code>, <code>React</code> and <code>Node</code>.<br /><br />Used <code>axios</code> to increase productivity when it comes down to fetching data, <code>bcrypt</code> to encrpt data and <code>Mongoose</code> as ORM."
     },
     "code": "https://github.com/antoniopataro/typer-dev",
     "demo": "https://antoniopataro.github.io/typer-dev/",
@@ -33,12 +48,12 @@
     "path": "e-commerce",
     "title": "E-Commerce",
     "about": {
-      "br": "Esse foi o meu primeiro projeto com o NextJS, um refactor de um e-commerce antigo que eu havia feito com React. Também foi o primeiro com Typescript.<br /><br />Queria testar as minhas habilidades como um programador de 3 meses de idade.",
-      "en": "This is my first NextJS project, a refactor of an old e-commerce I've made using React. Also my first using Typescript.<br /><br />I wanted to test out my skills as a 3 month old programmer at that time."
+      "br": "Esse foi o meu primeiro projeto com o NextJS, um refactor de um e-commerce antigo que eu havia feito com <code>React</code>. Também foi o primeiro com <code>Typescript</code>.<br /><br />Queria testar as minhas habilidades como um programador de 3 meses de idade.",
+      "en": "This is my first NextJS project, a refactor of an old e-commerce I've made using <code>React</code>. Also my first using <code>Typescript</code>.<br /><br />I wanted to test out my skills as a 3 month old programmer at that time."
     },
     "how": {
-      "br": "Usei Typescript e @ts-ignore 🤣 nesse projeto.<br /><br />Criei o projeto utilizando o Vite como plugin. Escolhi o NextJS como framework. Esse projeto marca os meus primeiros passos com Typescript, por isso tem tantos @ts-ignores.<br /><br />Estilizei usando o Styled Components, utilizei o UUID para dar IDs únicos para os produtos e o Redux para gerenciar estados compartilhados. O qye foi uma boa escolha devido à complexidade do projeto.",
-      "en": "Used Typescript and @ts-ignore 🤣 on this project.<br /><br />I created this project using Vite as its plugin. Chose NextJS as framework. It marks my first steps using `Typescript`, that's why there are so many @ts-ignores.<br /><br />Styled the project using Styled Components, used UUID for unique IDs for each product and Redux to manage shared states between components. A good choice due to this project's complexity."
+      "br": "Usei <code>Typescript</code> e <code>@ts-ignore</code> 🤣 nesse projeto.<br /><br />Criei esse projeto utilizando o <code>Vite</code> como plugin. Escolhi o <code>NextJS</code> como framework. Esse projeto marca os meus primeiros passos com <code>Typescript</code>, por isso tem tantos problemas. Hoje em dia, tenho certeza de que seria capaz de fazer um trabalho bem melhor.<br /><br />Estilizei usando o <code>styled-components</code>, utilizei o <code>uuidv4</code> para dar IDs únicos para os produtos e o <code>Redux</code> para gerenciar estados compartilhados. O que foi uma boa escolha devido à complexidade do projeto.",
+      "en": "Used <code>Typescript</code> and <code>@ts-ignore</code> 🤣 on this project.<br /><br />I created this project using <code>Vite</code> as its plugin. Chose <code>NextJS</code> as framework. It marks my first steps using <code>Typescript</code>, that's why there are so many problems. Nowadays I'm sure I'd be able to do a whole better job.<br /><br />Styled the project using <code>styled-components</code>, used <code>uuidv4</code> for unique IDs for each product and <code>Redux</code> to manage shared states between components. A good choice due to this project's complexity."
     },
     "code": "https://github.com/antoniopataro/e-commerce",
     "demo": "https://e-commerce-antoniopataro.vercel.app/",
@@ -48,12 +63,12 @@
     "path": "emoji-searcher",
     "title": "Emoji Searcher",
     "about": {
-      "br": "Esse é um simples Emoji Searcher. Fiz, sobretudo, para testar minhas habilidades com o React, mas depois comecei a focar em melhorar a UI e usabilidade, implementando atalhos e animações.",
-      "en": "This is a simple Emoji Searcher app. Did it mainly to test my React skill, but later on I focused on improving its UI and usability, implementing shortcuts and animations."
+      "br": "Esse é um simples Emoji Searcher. Fiz, sobretudo, para testar minhas habilidades com o <code>React</code>, mas depois comecei a focar em melhorar a UI e usabilidade, implementando atalhos e animações.",
+      "en": "This is a simple Emoji Searcher app. Did it mainly to test my <code>React</code> skill, but later on I focused on improving its UI and usability, implementing shortcuts and animations."
     },
     "how": {
-      "br": "Criei o projeto utilizando o Vite como plugin. Escolhi o React como framework - tinha medo de Typescript na época.<br /><br />Estilizei usando o Styled Components e utilizei o Redux para gerenciar estados compartilhados, o que foi uma escolha ruim por overkill: não há necessidade de usar o Redux em um projeto como esse. Eu só tinha medo da ContextAPI na época.",
-      "en": "I created this project using Vite as its plugin. Chose React as framework - I was afraid of Typescript util then.<br /><br />Styled the project using Styled Components and used Redux to manage shared states between components, which was a bad choice due to overkill: there's no need for Redux. I was just scared of ContextAPI at the time."
+      "br": "Criei esse projeto utilizando o <code>Vite</code> como plugin. Escolhi o <code>React</code> como framework - tinha medo de <code>Typescript</code> na época.<br /><br />Estilizei usando o <code>styled-components</code> e utilizei o <code>Redux</code> para gerenciar estados compartilhados, o que foi uma escolha ruim por overkill: não há necessidade de usar o <code>Redux</code> em um projeto como esse. Eu só tinha medo da <code>ContextAPI</code> na época.",
+      "en": "I created this project using <code>Vite</code> as its plugin. Chose <code>React</code> as framework - I was afraid of <code>Typescript</code> util then.<br /><br />Styled the project using <code>styled-components</code> and used <code>Redux</code> to manage shared states between components, which was a bad choice due to overkill: there's no need for <code>Redux</code>. I was just scared of <code>ContextAPI</code> at the time."
     },
     "code": "https://github.com/antoniopataro/emoji-searcher",
     "demo": "https://antoniopataro.github.io/emoji-searcher/",
@@ -63,12 +78,12 @@
     "path": "ui-snippets",
     "title": "UI Snippets",
     "about": {
-      "br": "O intuito desse projeto é de servir como um lugar no qual eu posso guardar alguns conceitos de design no CSS.<br /><br />Precisa de uma atualização.",
-      "en": "This project's intent is to serve as some kind of storage to some of my CSS concepts.<br /><br />Need to update it."
+      "br": "O intuito desse projeto é de servir como um lugar no qual eu posso guardar alguns conceitos de design no <code>CSS</code>.<br /><br />Precisa de uma atualização.",
+      "en": "This project's intent is to serve as some kind of storage to some of my <code>CSS</code> concepts.<br /><br />Need to update it."
     },
     "how": {
-      "br": "Foi criado da mesma forma que a maioria dos outros, mas sem Typescript.",
-      "en": "This project was created same way as most of the others, but without Typescript."
+      "br": "Foi feito com <code>Vite</code> como plugin e <code>React</code> como framework, bem simples.",
+      "en": "It's made with <code>Vite</code> as plugin and <code>React</code> as framework, pretty simple."
     },
     "code": "https://github.com/antoniopataro/ui-snippets",
     "demo": "https://antoniopataro.github.io/ui-snippets/",
@@ -78,12 +93,12 @@
     "path": "js-calculator",
     "title": "JS Calculator",
     "about": {
-      "br": "Esse foi um pequeno projeto para testar minhas habilidades com Javascript puro. Às vezes a gente se acostuma tanto a utilizar um framework, como o ReactJS, que esquecemos como as coisas são feitas com a linguagem pura.",
-      "en": "This is a short project I did to test my pure Javascript skills. Sometimes we get so deep in using a framework, like ReactJS, that we forget how things are done in a raw way."
+      "br": "Esse foi um pequeno projeto para testar minhas habilidades com <code>Javascript</code> puro. Às vezes a gente se acostuma tanto a utilizar um framework, como o <code>React</code>, que esquecemos como as coisas são feitas com a linguagem pura.",
+      "en": "This is a short project I did to test my pure <code>Javascript</code> skills. Sometimes we get so deep in using a framework, like <code>React</code>, that we forget how things are done in a raw way."
     },
     "how": {
-      "br": "Usei Javascript puro com CSS e HTML.",
-      "en": "Used pure Javascript, CSS and HTML."
+      "br": "Usei <code>Javascript</code> puro com <code>CSS</code> e <code>HTML</code>.",
+      "en": "Used pure <code>Javascript</code>, <code>CSS</code> and <code>HTML</code>."
     },
     "code": "https://github.com/antoniopataro/js-calculator",
     "demo": "https://antoniopataro.github.io/js-calculator/",
@@ -97,8 +112,8 @@
       "en": "Em Suma was an educational start-up that me and a friend of mine created in the beginning of 2021. It was meant to be an on-line educational plataform related to Brazil's main University admission exam, the <a href='https://en.wikipedia.org/wiki/Exame_Nacional_do_Ensino_M%C3%A9dio' target={'_blank'}>Exame Nacional do Ensino Médio (ENEM).</a><br /><br />I was strongly active on its Design but also keeped up with its development, which was leaded by my bro <a href='https://cabraljv.dev/' target={'_blank'}>João.<a/><br /><br />Learned a lot at the time."
     },
     "how": {
-      "br": "Como dito, eu fiquei mais focado na criação do Design. Assim, João protagonizou no que concerne ao desenvolvimento do software, construindo-o com ReactJS, Typescript, NodeJS, hospedando na AWS e por aí vai. É realmente uma aplicação bem sólida.",
-      "en": "As said, I was more focused on its Design. Therefore, João protagonized when it comes to development building it with ReactJS, Typescript, NodeJS, hosting on AWS and so on. It is a really solid creation."
+      "br": "Como dito, eu fiquei mais focado na criação do Design. Assim, João protagonizou no que concerne ao desenvolvimento do software, construindo-o com <code>React</code>, <code>Typescript</code>, <code>Node</code>, hospedando na <code>AWS</code> e por aí vai. É realmente uma aplicação bem sólida.",
+      "en": "As said, I was more focused on its Design. Therefore, João protagonized when it comes to development building it with <code>React</code>, <code>Typescript</code>, <code>Node</code>, hosting on <code>AWS</code> and so on. It is a really solid creation."
     },
     "code": "https://github.com/emsuma",
     "demo": "https://emsuma.com.br/",
