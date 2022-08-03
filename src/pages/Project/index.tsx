@@ -63,13 +63,13 @@ function Project() {
       case "typer-dev":
         return demoTyperDev;
       case "emoji-searcher":
-        return demoECommerce;
-      case "ui-snippets":
         return demoEmojiSearcher;
+      case "ui-snippets":
+        return demoUISnippets;
       case "js-calculator":
         return demoJSCalculator;
       case "e-commerce":
-        return demoUISnippets;
+        return demoECommerce;
       case "em-suma":
         return demoEmSuma;
       default:
