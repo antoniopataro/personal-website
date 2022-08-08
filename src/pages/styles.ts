@@ -15,6 +15,21 @@ const MainStyles = styled.main`
 
   background-color: var(--background);
 
+  ::before {
+    content: "";
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.1;
+    background-image: url("/src/assets/bg-grid.svg");
+  }
+
   @media (max-width: 768px) {
     gap: 60px;
     padding: 60px 15vw;

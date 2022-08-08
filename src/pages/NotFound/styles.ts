@@ -13,6 +13,21 @@ const NotFoundStyles = styled.main`
 
   background-color: var(--background);
 
+  ::before {
+    content: "";
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.1;
+    background-image: url("/src/assets/bg-grid.svg");
+  }
+
   button {
     outline: none;
     border: none;
@@ -52,6 +67,13 @@ const NotFoundStyles = styled.main`
     align-items: center;
 
     gap: 40px;
+
+    span {
+      display: flex;
+      flex-direction: row;
+
+      gap: 4px;
+    }
   }
 
   @media (max-width: 768px) {
