@@ -7,6 +7,7 @@ import About from "../../components/Projects/About";
 import How from "../../components/Projects/How";
 
 import demoDona from "../../assets/project-videos/demo-dona.mp4";
+import demoNobook from "../../assets/project-videos/demo-nobook.mp4";
 import demoMissedClasses from "../../assets/project-videos/demo-missed-classes.mp4";
 import demoECommerce from "../../assets/project-videos/demo-e-commerce.mp4";
 import demoEmojiSearcher from "../../assets/project-videos/demo-emoji-searcher.mp4";
@@ -58,6 +59,8 @@ function Project() {
     switch (project?.path) {
       case "dona":
         return demoDona;
+      case "nobook":
+        return demoNobook;
       case "missed-classes":
         return demoMissedClasses;
       case "typer-dev":

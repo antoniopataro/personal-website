@@ -15,6 +15,21 @@
     "year": "2022"
   },
   {
+    "path": "nobook",
+    "title": "Nobook",
+    "about": {
+      "br": "Nobook é um caderno on-line com formatação rich-text e uma preocupação considerável com Design e UX.<br /><br />Esse projeto era pra ser um microSaaS da minha parte, mas algumas dificuldades técnicas me desanimaram. Principalmente no que concerne a lidar com conteúdos <code>contentEditable.</code>",
+      "en": "Nobook is an on-line notebook with rich-text formatting and a considerable worry with Design and UX.<br /><br />It was supposed to be a microSaaS of my part, but some technical problems discouraged me. Mainly when it comes to dealing with content inside <code>contentEditable.</code>"
+    },
+    "how": {
+      "br": "Criei esse projeto utilizando o <code>Vite</code> como plugin. Escolhi o <code>React</code> como framework e utilizei <code>Typescript</code>, é claro.<br /><br />Estilizei usando o <code>styled-components</code>, utilizei <code>uuidv4</code> para IDs únicos de cada caderno e <code>react-router-dom<code/> para gerenciar as rotas.",
+      "en": "I created this project using <code>Vite</code> as its plugin. Chose <code>React</code> as framework and used <code>Typescript</code>, of course.<br /><br />Styled the project using <code>styled-components</code>, used <code>uuidv4</code> for unique IDs to each notebook and <code>react-router-dom</code> to manage routing."
+    },
+    "code": "https://github.com/antoniopataro/nobook",
+    "demo": "https://antoniopataro.github.io/nobook/",
+    "year": "2022"
+  },
+  {
     "path": "missed-classes",
     "title": "Missed Classes",
     "about": {
