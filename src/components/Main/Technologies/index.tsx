@@ -11,6 +11,7 @@ import typescriptIcon from "../../../assets/technologies/typescriptIcon.png";
 import reactJsIcon from "../../../assets/technologies/reactJsIcon.png";
 import reactNativeIcon from "../../../assets/technologies/reactNativeIcon.png";
 import nextJsIcon from "../../../assets/technologies/nextJsIcon.png";
+import dockerIcon from "../../../assets/technologies/dockerIcon.png";
 import nodeJsIcon from "../../../assets/technologies/nodeJsIcon.png";
 import expressIcon from "../../../assets/technologies/expressIcon.png";
 import mongoDbIcon from "../../../assets/technologies/mongoDbIcon.png";
@@ -26,6 +27,7 @@ const technologies = [
   { name: "ReactJS", img: reactJsIcon, url: "https://reactjs.org/" },
   { name: "React Native", img: reactNativeIcon, url: "https://reactnative.dev/" },
   { name: "NextJS", img: nextJsIcon, url: "https://nextjs.org/" },
+  { name: "Docker", img: dockerIcon, url: "https://www.docker.com/" },
   { name: "NodeJS", img: nodeJsIcon, url: "https://nodejs.org/" },
   { name: "Express", img: expressIcon, url: "https://expressjs.com/" },
   { name: "MongoDB", img: mongoDbIcon, url: "https://www.mongodb.com/" },
