@@ -8,8 +8,8 @@ import leftArrow from "../../assets/leftArrow.svg";
 
 import NotFoundStyles from "./styles";
 
-const en = "I wasn't able to find the route you are looking for :(";
-const br = "Não consegui encontrar a rota que você está procurando :(";
+const en = "You'll be redirected in:";
+const br = "Você será redirecionado em:";
 
 function NotFound() {
   const navigate = useNavigate();
@@ -21,12 +21,13 @@ function NotFound() {
   useEffect(() => {
     if (timer > 0) {
       setTimeout(() => {
-        setTimer((prevTimer) => prevTimer - 1);
+        setTimer(timer - 1);
       }, 1000);
 
       return;
     }
-    return;
+
+    navigate("/");
   }, [timer]);
 
   return (
@@ -36,7 +37,10 @@ function NotFound() {
       </button>
       <span>
         <h1>404</h1>
-        <h3>{language === "en" ? en : br}</h3>
+        <span>
+          <h3>{language === "en" ? en : br}</h3>
+          <h2>{timer}</h2>
+        </span>
       </span>
     </NotFoundStyles>
   );
