@@ -27,7 +27,7 @@ const MainStyles = styled.main`
     width: 100vw;
     height: 100vh;
     opacity: 0.1;
-    background-image: url("/src/assets/bg-grid.svg");
+    background-image: url("https://raw.githubusercontent.com/antoniopataro/personal-website/1bc8592e7607735a51f1488a8c55e281f1af80a1/src/assets/bg-grid.svg");
   }
 
   @media (max-width: 768px) {
