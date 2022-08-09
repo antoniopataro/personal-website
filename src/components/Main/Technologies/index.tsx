@@ -18,6 +18,8 @@ import mongoDbIcon from "../../../assets/technologies/mongoDbIcon.png";
 import gitIcon from "../../../assets/technologies/gitIcon.png";
 import pythonIcon from "../../../assets/technologies/pythonIcon.png";
 import figmaIcon from "../../../assets/technologies/figmaIcon.png";
+import vueIcon from "../../../assets/technologies/vueIcon.png";
+import tailwindIcon from "../../../assets/technologies/tailwindIcon.png";
 
 const technologies = [
   { name: "HTML", img: htmlIcon, url: "https://developer.mozilla.org/pt-BR/docs/Web/HTML" },
@@ -34,6 +36,8 @@ const technologies = [
   { name: "Git", img: gitIcon, url: "https://git-scm.com/" },
   { name: "Python", img: pythonIcon, url: "https://www.python.org/" },
   { name: "Figma", img: figmaIcon, url: "https://www.figma.com/" },
+  { name: "VueJS", img: vueIcon, url: "https://vuejs.org/" },
+  { name: "TailwindCSS", img: tailwindIcon, url: "https://tailwindcss.com/" },
 ];
 
 const en1 =
