@@ -15,6 +15,21 @@
     "year": "2022"
   },
   {
+    "path": "forrms",
+    "title": "Forrms",
+    "about": {
+      "br": "Forrms é um projeto pequeno no qual eu tentei desenvolver um padrão de formulários visualmente responsivos e dinâmicos, com bastante foco em UX.",
+      "en": "Forrms is a small project in which I tried to develop a delightful and dynamic visual form pattern, with a lot of focus on UX."
+    },
+    "how": {
+      "br": "Criei esse projeto com o <code>Vite</code> como plugin. Escolhi o <code>VueJS</code> como framework e utilizei <code>Typescript</code>, é claro. Foi o meu primeiro projeto com o <code>VueJS</code>.",
+      "en": "I created this project using <code>Vite</code> as its plugin. Chose <code>VueJS</code> as framework and used <code>Typescript</code>, of course. It was my first <code>VueJS</code> project,"
+    },
+    "code": "https://github.com/antoniopataro/forrms",
+    "demo": "https://antoniopataro.github.io/forrms/",
+    "year": "2022"
+  },
+  {
     "path": "nobook",
     "title": "Nobook",
     "about": {
