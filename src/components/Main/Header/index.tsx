@@ -11,8 +11,8 @@ import diagonalArrow from "../../../assets/diagonalArrow.svg";
 
 import HeaderStyles from "./styles";
 
-const en = "I'm a Fullstack Developer based in Brazil who's very into Design. I create";
-const br = "Eu sou um Desenvolvedor Fullstack do Brasil que gosta muito de Design. Também faço";
+const en = "I'm a Fullstack Developer based in Brazil who's very into Design. I'm starting to create";
+const br = "Eu sou um Desenvolvedor Fullstack do Brasil que gosta muito de Design. Estou começando a fazer";
 
 function Header() {
   const { language, changeLanguage } = useContext(Language);
@@ -27,7 +27,7 @@ function Header() {
               <h2>Antônio Pataro</h2>
               <img src={brFlag} alt={language === "en" ? "Brazil" : "Brasil"} width={16} height={16} />
             </span>
-            <h4>{language === "en" ? "Developer and Designer" : "Desenvolvedor e Designer"}</h4>
+            <h4>{language === "en" ? "Software Developer" : "Desenvolvedor de Software"}</h4>
           </div>
         </div>
         <div className="right">
