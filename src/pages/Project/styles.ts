@@ -16,9 +16,9 @@ const ProjectStyles = styled.main`
   background-color: var(--background);
 
   ::before {
+    position: fixed;
     content: "";
     pointer-events: none;
-    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
@@ -26,7 +26,7 @@ const ProjectStyles = styled.main`
     margin: auto;
     width: 100vw;
     height: 100vh;
-    opacity: 0.1;
+    opacity: 0.05;
     background-image: url("https://raw.githubusercontent.com/antoniopataro/personal-website/1bc8592e7607735a51f1488a8c55e281f1af80a1/src/assets/bg-grid.svg");
   }
 

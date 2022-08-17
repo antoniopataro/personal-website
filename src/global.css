@@ -30,7 +30,9 @@
 
 body {
   font-family: "Inter var", sans-serif;
+
   color: #ededed;
+  background: var(--background);
 }
 
 h1 {
@@ -95,13 +97,22 @@ button:hover::after {
   background-color: var(--foreground);
 
   animation: fadeIn 0.15s ease forwards;
+}
 
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomOut {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
