@@ -15,21 +15,6 @@
     "year": "2022"
   },
   {
-    "path": "forrms",
-    "title": "Forrms",
-    "about": {
-      "br": "Forrms é um projeto pequeno no qual eu tentei desenvolver um padrão de formulários visualmente responsivos e dinâmicos, com bastante foco em UX.",
-      "en": "Forrms is a small project in which I tried to develop a delightful and dynamic visual form pattern, with a lot of focus on UX."
-    },
-    "how": {
-      "br": "Criei esse projeto com o <code>Vite</code> como plugin. Escolhi o <code>VueJS</code> como framework e utilizei <code>Typescript</code>, é claro. Foi o meu primeiro projeto com o <code>VueJS</code>.",
-      "en": "I created this project using <code>Vite</code> as its plugin. Chose <code>VueJS</code> as framework and used <code>Typescript</code>, of course. It was my first <code>VueJS</code> project,"
-    },
-    "code": "https://github.com/antoniopataro/forrms",
-    "demo": "https://antoniopataro.github.io/forrms/",
-    "year": "2022"
-  },
-  {
     "path": "nobook",
     "title": "Nobook",
     "about": {
@@ -42,36 +27,6 @@
     },
     "code": "https://github.com/antoniopataro/nobook",
     "demo": "https://antoniopataro.github.io/nobook/",
-    "year": "2022"
-  },
-  {
-    "path": "missed-classes",
-    "title": "Missed Classes",
-    "about": {
-      "br": "Esse projeto foi feito com base em uma necessidade minha.<br /><br />Faltar aula às vezes é inevitável: problemas de sáude, cansaço e até para estudar oturas coisas. Entretanto, acho muito difícil saber quantas aulas faltei no meu período, bem como quantas aulas ainda posso faltar sem reprovar.<br /><br />Assim, decidi criar um aplicativo mobile para solucionar esse problema.",
-      "en": "This project was created based on a personal need.<br/><br/>Skip class is inevitable sometimes: health issues, exhaustion or even to study something else. However, I find it hard to keep track of how many classes I've skipped and of how many I can skip withuot failing.<br/><br/>Therefore, I decided to create a mobile app to solve this problem."
-    },
-    "how": {
-      "br": "Criei esse projeto utilizando o <code>Expo</code> como plugin. Escolhi o <code>ReactNative</code> como framework e utilizei <code>Typescript</code>, é claro.<br /><br />Estilizei usando o <code>styled-components</code>, utilizei <code>uuidv4</code> para IDs únicos de cada aula e <code>async-storage</code> para salvar as informações necessárias mesmo após reinicialização do aplicativo.",
-      "en": "I created this project using <code>Expo</code> as its plugin. Chose <code>ReactNative</code> as framework and used <code>Typescript</code>, of course.<br /><br />Styled the project using <code>styled-components</code>, used <code>uuidv4</code> for unique IDs to each class and <code>async-storage</code> to persist necessary information even after the app has been closed and restarted."
-    },
-    "code": "https://github.com/antoniopataro/missed-classes",
-    "demo": "",
-    "year": "2022"
-  },
-  {
-    "path": "typer-dev",
-    "title": "TyperDev",
-    "about": {
-      "br": "TyperDev é um aplicativo on-line no qual você pode treinar a sua velocidade de digitação com palavras relacionadas a programação.<br /><br />Essa ideia surgiu quando eu estava procurando um novo teclaod para comprar.<br /><br />Ainda falta a API com palavras unicamente relacionadas a desenvolvimento, mas o programa funciona como esperado com o sample text que está lá.",
-      "en": "TyperDev is an on-line app in which you can practice your typing speed with programming keywords.<br /><br />This was an idea that came up when I was looking for a new keyboard to buy.<br /><br />It still needs an API with programming related keywords, but it works accordingly with a sample text."
-    },
-    "how": {
-      "br": "Criei esse projeto utilizando o <code>Vite</code> como plugin. Escolhi o <code>React</code> como framework e utilizei <code>Typescript</code>, é claro.<br /><br />Estilizei usando o <code>styled-components</code> e criei as suas rotas utilizando o <code>react-router-dom</code>.<br /><br />Foi o primeiro projeto em que fiz o Back-End na mão, utilizando a stack MERN: <code>MongoDB</code>, <code>express</code>, <code>React</code> e <code>Node</code>.<br /><br />Utilizei o <code>axios</code> para aumentar a produtividade na aquisição de dados, o <code>bcrypt</code> para encriptar as informações necessárias e o <code>Mongoose</code> como ORM.",
-      "en": "I created this project using <code>Vite</code> as its plugin. Chose <code>React</code> as framework and used <code>Typescript</code>, of course.<br /><br />Styled the project using <code>styled-components</code> and created its routes using <code>react-router-dom</code>.<br /><br />It's the first project I handmade the Back-End logic using the MERN stack: <code>MongoDB</code>, <code>express</code>, <code>React</code> and <code>Node</code>.<br /><br />Used <code>axios</code> to increase productivity when it comes down to fetching data, <code>bcrypt</code> to encrpt data and <code>Mongoose</code> as ORM."
-    },
-    "code": "https://github.com/antoniopataro/typer-dev",
-    "demo": "https://antoniopataro.github.io/typer-dev/",
     "year": "2022"
   },
   {
@@ -90,6 +45,21 @@
     "year": "2022"
   },
   {
+    "path": "typer-dev",
+    "title": "TyperDev",
+    "about": {
+      "br": "TyperDev é um aplicativo on-line no qual você pode treinar a sua velocidade de digitação com palavras relacionadas a programação.<br /><br />Essa ideia surgiu quando eu estava procurando um novo teclaod para comprar.<br /><br />Ainda falta a API com palavras unicamente relacionadas a desenvolvimento, mas o programa funciona como esperado com o sample text que está lá.",
+      "en": "TyperDev is an on-line app in which you can practice your typing speed with programming keywords.<br /><br />This was an idea that came up when I was looking for a new keyboard to buy.<br /><br />It still needs an API with programming related keywords, but it works accordingly with a sample text."
+    },
+    "how": {
+      "br": "Criei esse projeto utilizando o <code>Vite</code> como plugin. Escolhi o <code>React</code> como framework e utilizei <code>Typescript</code>, é claro.<br /><br />Estilizei usando o <code>styled-components</code> e criei as suas rotas utilizando o <code>react-router-dom</code>.<br /><br />Foi o primeiro projeto em que fiz o Back-End na mão, utilizando a stack MERN: <code>MongoDB</code>, <code>express</code>, <code>React</code> e <code>Node</code>.<br /><br />Utilizei o <code>axios</code> para aumentar a produtividade na aquisição de dados, o <code>bcrypt</code> para encriptar as informações necessárias e o <code>Mongoose</code> como ORM.",
+      "en": "I created this project using <code>Vite</code> as its plugin. Chose <code>React</code> as framework and used <code>Typescript</code>, of course.<br /><br />Styled the project using <code>styled-components</code> and created its routes using <code>react-router-dom</code>.<br /><br />It's the first project I handmade the Back-End logic using the MERN stack: <code>MongoDB</code>, <code>express</code>, <code>React</code> and <code>Node</code>.<br /><br />Used <code>axios</code> to increase productivity when it comes down to fetching data, <code>bcrypt</code> to encrpt data and <code>Mongoose</code> as ORM."
+    },
+    "code": "https://github.com/antoniopataro/typer-dev",
+    "demo": "https://antoniopataro.github.io/typer-dev/",
+    "year": "2022"
+  },
+  {
     "path": "emoji-searcher",
     "title": "Emoji Searcher",
     "about": {
@@ -103,50 +73,5 @@
     "code": "https://github.com/antoniopataro/emoji-searcher",
     "demo": "https://antoniopataro.github.io/emoji-searcher/",
     "year": "2022"
-  },
-  {
-    "path": "ui-snippets",
-    "title": "UI Snippets",
-    "about": {
-      "br": "O intuito desse projeto é de servir como um lugar no qual eu posso guardar alguns conceitos de design no <code>CSS</code>.<br /><br />Precisa de uma atualização.",
-      "en": "This project's intent is to serve as some kind of storage to some of my <code>CSS</code> concepts.<br /><br />Need to update it."
-    },
-    "how": {
-      "br": "Foi feito com <code>Vite</code> como plugin e <code>React</code> como framework, bem simples.",
-      "en": "It's made with <code>Vite</code> as plugin and <code>React</code> as framework, pretty simple."
-    },
-    "code": "https://github.com/antoniopataro/ui-snippets",
-    "demo": "https://antoniopataro.github.io/ui-snippets/",
-    "year": "2022"
-  },
-  {
-    "path": "js-calculator",
-    "title": "JS Calculator",
-    "about": {
-      "br": "Esse foi um pequeno projeto para testar minhas habilidades com <code>Javascript</code> puro. Às vezes a gente se acostuma tanto a utilizar um framework, como o <code>React</code>, que esquecemos como as coisas são feitas com a linguagem pura.",
-      "en": "This is a short project I did to test my pure <code>Javascript</code> skills. Sometimes we get so deep in using a framework, like <code>React</code>, that we forget how things are done in a raw way."
-    },
-    "how": {
-      "br": "Usei <code>Javascript</code> puro com <code>CSS</code> e <code>HTML</code>.",
-      "en": "Used pure <code>Javascript</code>, <code>CSS</code> and <code>HTML</code>."
-    },
-    "code": "https://github.com/antoniopataro/js-calculator",
-    "demo": "https://antoniopataro.github.io/js-calculator/",
-    "year": "2022"
-  },
-  {
-    "path": "em-suma",
-    "title": "Em Suma",
-    "about": {
-      "br": "Em Suma foi uma start-up de educação que eu e um amigo criamos no começo de 2021. O seu propósito era ser uma plataforma de educação on-line relacionada à principal prova de admissão para Universidades no Brasil, o Exame Nacional do Ensino Médio (ENEM).<br /><br />Eu estava fortemente ativo na construção do Design do produto, mas também acompanhei o desenvolvimento do projeto, que foi dirigito pelo meu mano <a href='https://cabraljv.dev/' target={'_blank'}>João.<a/><br /><br />Aprendi muito na época.",
-      "en": "Em Suma was an educational start-up that me and a friend of mine created in the beginning of 2021. It was meant to be an on-line educational plataform related to Brazil's main University admission exam, the <a href='https://en.wikipedia.org/wiki/Exame_Nacional_do_Ensino_M%C3%A9dio' target={'_blank'}>Exame Nacional do Ensino Médio (ENEM).</a><br /><br />I was strongly active on its Design but also keeped up with its development, which was leaded by my bro <a href='https://cabraljv.dev/' target={'_blank'}>João.<a/><br /><br />Learned a lot at the time."
-    },
-    "how": {
-      "br": "Como dito, eu fiquei mais focado na criação do Design. Assim, João protagonizou no que concerne ao desenvolvimento do software, construindo-o com <code>React</code>, <code>Typescript</code>, <code>Node</code>, hospedando na <code>AWS</code> e por aí vai. É realmente uma aplicação bem sólida.",
-      "en": "As said, I was more focused on its Design. Therefore, João protagonized when it comes to development building it with <code>React</code>, <code>Typescript</code>, <code>Node</code>, hosting on <code>AWS</code> and so on. It is a really solid creation."
-    },
-    "code": "https://github.com/emsuma",
-    "demo": "https://emsuma.com.br/",
-    "year": "2021 "
   }
 ]
