@@ -8,6 +8,8 @@ import htmlIcon from "../../../assets/technologies/htmlIcon.png";
 import cssIcon from "../../../assets/technologies/cssIcon.png";
 import javascriptIcon from "../../../assets/technologies/javascriptIcon.png";
 import typescriptIcon from "../../../assets/technologies/typescriptIcon.png";
+import viteJsIcon from "../../../assets/technologies/viteJsIcon.png";
+import vueIcon from "../../../assets/technologies/vueIcon.png";
 import reactJsIcon from "../../../assets/technologies/reactJsIcon.png";
 import reactNativeIcon from "../../../assets/technologies/reactNativeIcon.png";
 import nextJsIcon from "../../../assets/technologies/nextJsIcon.png";
@@ -15,10 +17,13 @@ import dockerIcon from "../../../assets/technologies/dockerIcon.png";
 import nodeJsIcon from "../../../assets/technologies/nodeJsIcon.png";
 import expressIcon from "../../../assets/technologies/expressIcon.png";
 import mongoDbIcon from "../../../assets/technologies/mongoDbIcon.png";
+import postgreSQLIcon from "../../../assets/technologies/postgreSQLIcon.png";
+import prismaIcon from "../../../assets/technologies/prismaIcon.png";
 import gitIcon from "../../../assets/technologies/gitIcon.png";
 import pythonIcon from "../../../assets/technologies/pythonIcon.png";
 import figmaIcon from "../../../assets/technologies/figmaIcon.png";
-import vueIcon from "../../../assets/technologies/vueIcon.png";
+import jestIcon from "../../../assets/technologies/jestIcon.png";
+import vitestIcon from "../../../assets/technologies/vitestIcon.png";
 import tailwindIcon from "../../../assets/technologies/tailwindIcon.png";
 
 const technologies = [
@@ -26,6 +31,8 @@ const technologies = [
   { name: "CSS", img: cssIcon, url: "https://www.w3schools.com/css/" },
   { name: "Javascript", img: javascriptIcon, url: "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" },
   { name: "Typescript", img: typescriptIcon, url: "https://www.typescriptlang.org/" },
+  { name: "ViteJS", img: viteJsIcon, url: "https://vitejs.dev/" },
+  { name: "VueJS", img: vueIcon, url: "https://vuejs.org/" },
   { name: "ReactJS", img: reactJsIcon, url: "https://reactjs.org/" },
   { name: "React Native", img: reactNativeIcon, url: "https://reactnative.dev/" },
   { name: "NextJS", img: nextJsIcon, url: "https://nextjs.org/" },
@@ -33,10 +40,13 @@ const technologies = [
   { name: "NodeJS", img: nodeJsIcon, url: "https://nodejs.org/" },
   { name: "Express", img: expressIcon, url: "https://expressjs.com/" },
   { name: "MongoDB", img: mongoDbIcon, url: "https://www.mongodb.com/" },
+  { name: "PostgreSQL", img: postgreSQLIcon, url: "https://www.postgresql.org/" },
+  { name: "Prisma", img: prismaIcon, url: "https://www.prisma.io/" },
   { name: "Git", img: gitIcon, url: "https://git-scm.com/" },
   { name: "Python", img: pythonIcon, url: "https://www.python.org/" },
   { name: "Figma", img: figmaIcon, url: "https://www.figma.com/" },
-  { name: "VueJS", img: vueIcon, url: "https://vuejs.org/" },
+  { name: "Jest", img: jestIcon, url: "https://jestjs.io/" },
+  { name: "Vitest", img: vitestIcon, url: "https://vitest.dev/" },
   { name: "TailwindCSS", img: tailwindIcon, url: "https://tailwindcss.com/" },
 ];
 
