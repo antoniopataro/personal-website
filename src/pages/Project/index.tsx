@@ -7,15 +7,10 @@ import About from "../../components/Projects/About";
 import How from "../../components/Projects/How";
 
 import demoDona from "../../assets/project-videos/demo-dona.mp4";
-import demoForrms from "../../assets/project-videos/demo-forrms.mp4";
 import demoNobook from "../../assets/project-videos/demo-nobook.mp4";
-import demoMissedClasses from "../../assets/project-videos/demo-missed-classes.mp4";
 import demoECommerce from "../../assets/project-videos/demo-e-commerce.mp4";
 import demoEmojiSearcher from "../../assets/project-videos/demo-emoji-searcher.mp4";
-import demoEmSuma from "../../assets/project-videos/demo-em-suma.mp4";
-import demoJSCalculator from "../../assets/project-videos/demo-js-calculator.mp4";
 import demoTyperDev from "../../assets/project-videos/demo-typer-dev.mp4";
-import demoUISnippets from "../../assets/project-videos/demo-ui-snippets.mp4";
 
 import ProjectStyles from "./styles";
 
@@ -60,24 +55,14 @@ function Project() {
     switch (project?.path) {
       case "dona":
         return demoDona;
-        case "forrms":
-          return demoForrms;
       case "nobook":
         return demoNobook;
-      case "missed-classes":
-        return demoMissedClasses;
       case "typer-dev":
         return demoTyperDev;
       case "emoji-searcher":
         return demoEmojiSearcher;
-      case "ui-snippets":
-        return demoUISnippets;
-      case "js-calculator":
-        return demoJSCalculator;
       case "e-commerce":
         return demoECommerce;
-      case "em-suma":
-        return demoEmSuma;
       default:
         return "";
     }
