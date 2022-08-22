@@ -7,8 +7,9 @@ import About from "../../components/Projects/About";
 import How from "../../components/Projects/How";
 
 import demoDona from "../../assets/project-videos/demo-dona.mp4";
+import demoECommerceRefactor from "../../assets/project-videos/demo-e-commerce-refactor.mp4";
+import demoForrms from "../../assets/project-videos/demo-forrms.mp4";
 import demoNobook from "../../assets/project-videos/demo-nobook.mp4";
-import demoECommerce from "../../assets/project-videos/demo-e-commerce.mp4";
 import demoEmojiSearcher from "../../assets/project-videos/demo-emoji-searcher.mp4";
 import demoTyperDev from "../../assets/project-videos/demo-typer-dev.mp4";
 
@@ -55,14 +56,16 @@ function Project() {
     switch (project?.path) {
       case "dona":
         return demoDona;
+      case "e-commerce-refactor":
+        return demoECommerceRefactor;
+      case "forrms":
+        return demoForrms;
       case "nobook":
         return demoNobook;
       case "typer-dev":
         return demoTyperDev;
       case "emoji-searcher":
         return demoEmojiSearcher;
-      case "e-commerce":
-        return demoECommerce;
       default:
         return "";
     }
