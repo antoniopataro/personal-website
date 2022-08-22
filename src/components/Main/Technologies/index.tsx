@@ -19,6 +19,7 @@ import expressIcon from "../../../assets/technologies/expressIcon.png";
 import mongoDbIcon from "../../../assets/technologies/mongoDbIcon.png";
 import postgreSQLIcon from "../../../assets/technologies/postgreSQLIcon.png";
 import prismaIcon from "../../../assets/technologies/prismaIcon.png";
+import graphQLIcon from "../../../assets/technologies/graphQLIcon.png";
 import gitIcon from "../../../assets/technologies/gitIcon.png";
 import pythonIcon from "../../../assets/technologies/pythonIcon.png";
 import figmaIcon from "../../../assets/technologies/figmaIcon.png";
@@ -42,6 +43,7 @@ const technologies = [
   { name: "MongoDB", img: mongoDbIcon, url: "https://www.mongodb.com/" },
   { name: "PostgreSQL", img: postgreSQLIcon, url: "https://www.postgresql.org/" },
   { name: "Prisma", img: prismaIcon, url: "https://www.prisma.io/" },
+  { name: "GraphQL", img: graphQLIcon, url: "https://graphql.org/" },
   { name: "Git", img: gitIcon, url: "https://git-scm.com/" },
   { name: "Python", img: pythonIcon, url: "https://www.python.org/" },
   { name: "Figma", img: figmaIcon, url: "https://www.figma.com/" },
