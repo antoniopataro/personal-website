@@ -4,25 +4,21 @@ https://user-images.githubusercontent.com/87823281/180573378-a2360c9d-5bfe-4d6e-
 
 This is my personal webiste's repository, used [here](https://www.antoniopataro.dev/).
 
-Feel free to share thoughts to me and get in touch.
-
-### 📃 History
-
-Some time ago, it was my first `React` project. 🥲
-
-You can find this and some older desings for my personal website in this [figma file](https://www.figma.com/file/cibaFLJNSHOa8dKKn3V9Mo/Personal-Website?node-id=272%3A31).
+Also, it is my first `ReactJS` project. 🥲
 
 ### ⚙️ Technologies
 
-Even though it is kinda of overkill to create a personal website (portolio-like) with `React`, I decided to stick around and redesign it. ⚛️
+- `Vite` [↗](https://vitejs.dev/) as plugin
+- `Typescript` [↗](https://www.typescriptlang.org/) as language
+- `ReactJS` [↗](https://reactjs.org/) as framework
+- `Styled Components` [↗](https://styled-components.com/) as styling framework
+- `react-router-dom` [↗](https://v5.reactrouter.com/web/guides/quick-start) to facilitate requests
 
-I created this project using `Vite` as its plugin. Chose `React` as framework and used `Typescript`, of course.
-
-Styled the project using `styled-components` and used `react-router-dom` for routing.
-
-<div style="display: inline_block"><br>
-<img align="center" title="ReactJS" alt="ReactJS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-  <img align="center" alt="Typescript" title="Typescript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
-  <img align="center" alt="Styled Components" title="Styled Components" height="30" width="40" src="https://user-images.githubusercontent.com/87823281/180796443-4c332fa5-94c7-4aa2-a9b3-775d16e62f62.svg">
-  <img align="center" alt="Figma" title="Figma" height="30" width="40" src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg">
+<div style="display: inline_block" align="center"><br>
+  <a href="https://vitejs.dev/" target="_blank">
+      <img align="center" title="ViteJS" alt="ViteJS" height="45" width="40" src="https://user-images.githubusercontent.com/87823281/182053707-047fc95d-6891-427b-9a98-065b20a25a30.svg"></a>
+<a href="https://www.typescriptlang.org/" target="_blank">
+  <img align="center" title="Typescript" alt="Typescript" height="45" width="40" src="https://user-images.githubusercontent.com/87823281/181045174-aeefe104-3966-491c-8d95-23f43050dbd0.svg"></a>
+    <a href="https://reactjs.org/" target="_blank">
+  <img align="center" title="ReactJS" alt="ReactJS" height="45" width="40" src="https://user-images.githubusercontent.com/87823281/181045172-a17b3a91-5442-4487-927e-0bd2920458b0.svg"></a>
 </div>
