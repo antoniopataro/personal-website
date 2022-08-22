@@ -12,7 +12,8 @@ Also, it is my first `ReactJS` project. 🥲
 - `Typescript` [↗](https://www.typescriptlang.org/) as language
 - `ReactJS` [↗](https://reactjs.org/) as framework
 - `Styled Components` [↗](https://styled-components.com/) as styling framework
-- `react-router-dom` [↗](https://v5.reactrouter.com/web/guides/quick-start) to facilitate requests
+- `react-router-dom` [↗](https://v5.reactrouter.com/) to facilitate requests
+- `Firebase` [↗](https://firebase.google.com/) to deploy
 
 <div style="display: inline_block" align="center"><br>
   <a href="https://vitejs.dev/" target="_blank">
