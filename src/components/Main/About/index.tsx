@@ -5,9 +5,9 @@ import { Language } from "../../../context/LanguageContext";
 import AboutStyles from "./styles";
 
 const en =
-  "I started learning programming as an unpretentious self-taught. Four months after that, I was already switching my college's course from Aerospace Engineering to Computer Science at UFMG.";
+  "I started learning programming as an unpretentious self-taught. Four months after that, I was already trying to change my college's course from Aerospace Engineering to Computer Science at UFMG.";
 const br =
-  "Eu comecei aprendendo programação como um autodidata despretensioso. Quatro meses depois, já estava mudando o meu curso na faculdade de Engenharia Aeroespacial para Ciência da Computação na UFMG.";
+  "Eu comecei aprendendo programação como um autodidata despretensioso. Quatro meses depois, já estava tentando mudar o meu curso na faculdade de Engenharia Aeroespacial para Ciência da Computação na UFMG.";
 
 function About() {
   const { language } = useContext(Language);

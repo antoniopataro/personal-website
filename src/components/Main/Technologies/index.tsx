@@ -18,6 +18,7 @@ import nodeJsIcon from "../../../assets/technologies/nodeJsIcon.png";
 import expressIcon from "../../../assets/technologies/expressIcon.png";
 import mongoDbIcon from "../../../assets/technologies/mongoDbIcon.png";
 import postgreSQLIcon from "../../../assets/technologies/postgreSQLIcon.png";
+import mySQLIcon from "../../../assets/technologies/mySQLIcon.png";
 import prismaIcon from "../../../assets/technologies/prismaIcon.png";
 import graphQLIcon from "../../../assets/technologies/graphQLIcon.png";
 import gitIcon from "../../../assets/technologies/gitIcon.png";
@@ -28,20 +29,40 @@ import vitestIcon from "../../../assets/technologies/vitestIcon.png";
 import tailwindIcon from "../../../assets/technologies/tailwindIcon.png";
 
 const technologies = [
-  { name: "HTML", img: htmlIcon, url: "https://developer.mozilla.org/pt-BR/docs/Web/HTML" },
+  {
+    name: "HTML",
+    img: htmlIcon,
+    url: "https://developer.mozilla.org/pt-BR/docs/Web/HTML",
+  },
   { name: "CSS", img: cssIcon, url: "https://www.w3schools.com/css/" },
-  { name: "Javascript", img: javascriptIcon, url: "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" },
-  { name: "Typescript", img: typescriptIcon, url: "https://www.typescriptlang.org/" },
-  { name: "ViteJS", img: viteJsIcon, url: "https://vitejs.dev/" },
+  {
+    name: "Javascript",
+    img: javascriptIcon,
+    url: "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript",
+  },
+  {
+    name: "Typescript",
+    img: typescriptIcon,
+    url: "https://www.typescriptlang.org/",
+  },
   { name: "VueJS", img: vueIcon, url: "https://vuejs.org/" },
   { name: "ReactJS", img: reactJsIcon, url: "https://reactjs.org/" },
-  { name: "React Native", img: reactNativeIcon, url: "https://reactnative.dev/" },
+  {
+    name: "React Native",
+    img: reactNativeIcon,
+    url: "https://reactnative.dev/",
+  },
   { name: "NextJS", img: nextJsIcon, url: "https://nextjs.org/" },
   { name: "Docker", img: dockerIcon, url: "https://www.docker.com/" },
   { name: "NodeJS", img: nodeJsIcon, url: "https://nodejs.org/" },
   { name: "Express", img: expressIcon, url: "https://expressjs.com/" },
   { name: "MongoDB", img: mongoDbIcon, url: "https://www.mongodb.com/" },
-  { name: "PostgreSQL", img: postgreSQLIcon, url: "https://www.postgresql.org/" },
+  {
+    name: "PostgreSQL",
+    img: postgreSQLIcon,
+    url: "https://www.postgresql.org/",
+  },
+  { name: "MySQL", img: mySQLIcon, url: "https://www.mysql.com/" },
   { name: "Prisma", img: prismaIcon, url: "https://www.prisma.io/" },
   { name: "GraphQL", img: graphQLIcon, url: "https://graphql.org/" },
   { name: "Git", img: gitIcon, url: "https://git-scm.com/" },
@@ -57,14 +78,14 @@ const en1 =
 const en2 =
   "Two months later, I was in touch with <code>NextJS</code> and already creating a project with <code>NodeJS</code>, <code>Express</code> and <code>MongoDB</code>.";
 const en3 =
-  "Recently, I got confident with <code>React Native</code> and, now, I'm getting deeper in touch with the fundamentals of Back-End Development and Architecture and solving code challenges with <code>Python</code>.";
+  "Recently, I got confident with <code>React Native</code> and, now, I'm getting deeper in touch with Back-End Architecture and Cloud.";
 
 const br1 =
   "Nos primeiros dois meses, aprendi <code>Javascript</code>, tecnologia com a qual aprendi <code>HTML</code> e <code>CSS</code>. Depois de me sentir confiante o suficiente, mergulhei no <code>React</code> e no <code>Typescript</code>, tecnologias que foram amor à primeira vista.";
 const br2 =
   "Dois meses depois, eu estava entrando em contato com o <code>NextJS</code> e criando um projeto com <code>NodeJS</code>, <code>Express</code> e <code>MongoDB</code>.";
 const br3 =
-  "Recentemente peguei confiança com <code>React Native</code> e, agora, tenho me aprofundado nos fundamentos do Desenvolvimento e da Arquitetura Back-End e resolvido desafios com <code>Python</code>.";
+  "Recentemente peguei confiança com <code>React Native</code> e, agora, tenho me aprofundado em Arquitetura Back-End e Cloud.";
 
 function Technologies() {
   const { language } = useContext(Language);
@@ -73,19 +94,37 @@ function Technologies() {
     <TechnologiesStyles>
       <h2>{language === "en" ? "Technologies" : "Tecnologias"}</h2>
       <h3>
-        <span dangerouslySetInnerHTML={{ __html: language === "en" ? en1 : br1 }}></span>
+        <span
+          dangerouslySetInnerHTML={{ __html: language === "en" ? en1 : br1 }}
+        ></span>
         <br />
         <br />
-        <span dangerouslySetInnerHTML={{ __html: language === "en" ? en2 : br2 }}></span>
+        <span
+          dangerouslySetInnerHTML={{ __html: language === "en" ? en2 : br2 }}
+        ></span>
         <br />
         <br />
-        <span dangerouslySetInnerHTML={{ __html: language === "en" ? en3 : br3 }}></span>
+        <span
+          dangerouslySetInnerHTML={{ __html: language === "en" ? en3 : br3 }}
+        ></span>
       </h3>
       <ul>
         {technologies.map((technology, index) => (
-          <li key={index} style={{ animation: `fadeIn .15s ${0.15 * index}s ease forwards` }}>
-            <a data-title={technology.name} href={technology.url} target={"_blank"}>
-              <img src={technology.img} alt={technology.name} width={30} height={30} />
+          <li
+            key={index}
+            style={{ animation: `fadeIn .15s ${0.15 * index}s ease forwards` }}
+          >
+            <a
+              data-title={technology.name}
+              href={technology.url}
+              target={"_blank"}
+            >
+              <img
+                src={technology.img}
+                alt={technology.name}
+                width={30}
+                height={30}
+              />
             </a>
           </li>
         ))}

@@ -11,8 +11,10 @@ import diagonalArrow from "../../../assets/diagonalArrow.svg";
 
 import HeaderStyles from "./styles";
 
-const en = "I'm a Fullstack Developer based in Brazil who's very into Design. I'm starting to create";
-const br = "Eu sou um Desenvolvedor Fullstack do Brasil que gosta muito de Design. Estou começando a fazer";
+const en =
+  "I'm a Front-End Developer based in Brazil who's very into Design. I'm starting to create";
+const br =
+  "Eu sou um Desenvolvedor Front-End do Brasil que gosta muito de Design. Estou começando a fazer";
 
 function Header() {
   const { language, changeLanguage } = useContext(Language);
@@ -25,9 +27,18 @@ function Header() {
           <div className="info">
             <span className="name">
               <h2>Antônio Pataro</h2>
-              <img src={brFlag} alt={language === "en" ? "Brazil" : "Brasil"} width={16} height={16} />
+              <img
+                src={brFlag}
+                alt={language === "en" ? "Brazil" : "Brasil"}
+                width={16}
+                height={16}
+              />
             </span>
-            <h4>{language === "en" ? "Software Developer" : "Desenvolvedor de Software"}</h4>
+            <h4>
+              {language === "en"
+                ? "Software Developer"
+                : "Desenvolvedor de Software"}
+            </h4>
           </div>
         </div>
         <div className="right">
@@ -50,7 +61,10 @@ function Header() {
       <div className="bottom">
         <h3>
           {language === "en" ? en : br}{" "}
-          <a href="https://www.youtube.com/channel/UC-L7leCzqLbmaAxtB1C9wyQ" target={"_blank"}>
+          <a
+            href="https://www.youtube.com/channel/UC-L7leCzqLbmaAxtB1C9wyQ"
+            target={"_blank"}
+          >
             {language === "en" ? "videos" : "vídeos"}
             <img src={diagonalArrow} alt="External Link" width={12} />
           </a>

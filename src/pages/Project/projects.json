@@ -16,6 +16,21 @@
     "tags": ["ViteJS", "Typescript", "ReactJS"]
   },
   {
+    "path": "e-commerce-refactor",
+    "title": "E-Commerce",
+    "about": {
+      "br": "Esse é um refactor de outro E-Commerce que eu fiz há um tempo quando estava aprendendo NextJS.<br/><br/>Dessa vez, eu realmente tentei fazer uma aplicação decente, usando um banco de dados real. Utilizei NextJS, PostgreSQL e TailwindCSS.",
+      "en": "This is a refactor of another E-Commerce I've made a while ago when I was learning NextJS.<br/><br/>This time, I really tried to make a decent application out of it, using a real database. Used NextJS, PostgreSQL and TailwindCSS."
+    },
+    "how": {
+      "br": "Utilizei <code>Typescript</code> como linguagem, <code>NextJS</code> como framework, <code>PostgreSQL</code> como banco de dados e <code>TailwindCSS</code> como framework de estilização.<br/><br/>Também utilizei <code>Prisma</code> comos ORM para gerenciar o banco de dados, <code>axios</code> para facilitar as requisições, <code>jsonwebtoken</code> para manter a autenticação do usuário e <code>uuid</code> para gerar IDs aleatórios.",
+      "en": "Used <code>Typescript</code> as language, <code>NextJS</code> as framework, <code>PostgreSQL</code> as database and <code>TailwindCSS</code> as styling framework.<br/><br/>Also used <code>Prisma</code> as ORM to manage the database, <code>axios</code> to facilitate requests, <code>jsonwebtoken</code> to persist user authentication and <code>uuid</code> to generate random IDs."
+    },
+    "code": "https://github.com/antoniopataro/e-commerce-refactor",
+    "year": "2022",
+    "tags": ["Typescript", "NextJS", "PostgreSQL", "TailwindCSS"]
+  },
+  {
     "path": "forrms",
     "title": "Forrms",
     "about": {
@@ -30,21 +45,6 @@
     "demo": "https://antoniopataro.github.io/forrms/",
     "year": "2022",
     "tags": ["ViteJS", "Typescript", "VueJS", "TailwindCSS"]
-  },
-  {
-    "path": "e-commerce-refactor",
-    "title": "E-Commerce",
-    "about": {
-      "br": "Esse é um refactor de outro E-Commerce que eu fiz há um tempo quando estava aprendendo NextJS.<br/><br/>Dessa vez, eu realmente tentei fazer uma aplicação decente, usando um banco de dados real. Utilizei NextJS, PostgreSQL e TailwindCSS.",
-      "en": "This is a refactor of another E-Commerce I've made a while ago when I was learning NextJS.<br/><br/>This time, I really tried to make a decent application out of it, using a real database. Used NextJS, PostgreSQL and TailwindCSS."
-    },
-    "how": {
-      "br": "Utilizei <code>Typescript</code> como linguagem, <code>NextJS</code> como framework, <code>PostgreSQL</code> como banco de dados e <code>TailwindCSS</code> como framework de estilização.<br/><br/>Também utilizei <code>Prisma</code> comos ORM para gerenciar o banco de dados, <code>axios</code> para facilitar as requisições, <code>jsonwebtoken</code> para manter a autenticação do usuário e <code>uuid</code> para gerar IDs aleatórios.",
-      "en": "Used <code>Typescript</code> as language, <code>NextJS</code> as framework, <code>PostgreSQL</code> as database and <code>TailwindCSS</code> as styling framework.<br/><br/>Also used <code>Prisma</code> as ORM to manage the database, <code>axios</code> to facilitate requests, <code>jsonwebtoken</code> to persist user authentication and <code>uuid</code> to generate random IDs."
-    },
-    "code": "https://github.com/antoniopataro/e-commerce-refactor",
-    "year": "2022",
-    "tags": ["Typescript", "NextJS", "PostgreSQL", "TailwindCSS"]
   },
   {
     "path": "nobook",
@@ -76,7 +76,14 @@
     "code": "https://github.com/antoniopataro/typer-dev",
     "demo": "https://antoniopataro.github.io/typer-dev/",
     "year": "2022",
-    "tags": ["ViteJS, Javascript", "Typescript", "ReactJS", "NodeJS", "Express", "MongoDB"]
+    "tags": [
+      "ViteJS, Javascript",
+      "Typescript",
+      "ReactJS",
+      "NodeJS",
+      "Express",
+      "MongoDB"
+    ]
   },
   {
     "path": "emoji-searcher",
