@@ -45,7 +45,7 @@ function Projects() {
   };
 
   return (
-    <div className="relative w-full min-h-screen px-8 py-16 sm:p-16 md:p-24 lg:p-32 bg-background text-text text-sm">
+    <div className="fixed overflow-y-scroll w-full h-screen px-8 py-16 sm:p-16 md:p-24 lg:p-32 bg-background text-text text-sm">
       <header className="flex w-full h-12 items-center justify-between gap-8">
         <div className="hidden md:block">
           <Navigator input="B" handler={navigateBack}>
