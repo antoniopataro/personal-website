@@ -1,25 +1,38 @@
-https://user-images.githubusercontent.com/87823281/180573378-a2360c9d-5bfe-4d6e-9f57-9f348ba3a85a.mp4
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-# 👤 ️Personal Website
+## Getting Started
 
-This is my personal webiste's repository, used [here](https://www.antoniopataro.dev/).
+First, run the development server:
 
-Also, it is my first `ReactJS` project. 🥲
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-### ⚙️ Technologies
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- `Vite` [↗](https://vitejs.dev/) as plugin
-- `Typescript` [↗](https://www.typescriptlang.org/) as language
-- `ReactJS` [↗](https://reactjs.org/) as framework
-- `Styled Components` [↗](https://styled-components.com/) as styling framework
-- `react-router-dom` [↗](https://v5.reactrouter.com/) to facilitate requests
-- `Firebase` [↗](https://firebase.google.com/) to deploy
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-<div style="display: inline_block" align="center"><br>
-  <a href="https://vitejs.dev/" target="_blank">
-      <img align="center" title="ViteJS" alt="ViteJS" height="45" width="40" src="https://user-images.githubusercontent.com/87823281/182053707-047fc95d-6891-427b-9a98-065b20a25a30.svg"></a>
-<a href="https://www.typescriptlang.org/" target="_blank">
-  <img align="center" title="Typescript" alt="Typescript" height="45" width="40" src="https://user-images.githubusercontent.com/87823281/181045174-aeefe104-3966-491c-8d95-23f43050dbd0.svg"></a>
-    <a href="https://reactjs.org/" target="_blank">
-  <img align="center" title="ReactJS" alt="ReactJS" height="45" width="40" src="https://user-images.githubusercontent.com/87823281/181045172-a17b3a91-5442-4487-927e-0bd2920458b0.svg"></a>
-</div>
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
