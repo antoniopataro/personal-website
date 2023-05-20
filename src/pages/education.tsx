@@ -7,21 +7,15 @@ import Navigator from "@components/Navigator";
 const education = [
   {
     date: "Soon",
-    logo: "/education/ufmg.png",
-    name: "Computer Science",
-    description: "Universidade Federal de Minas Gerais",
+    logo: "/education/descomplica.png",
+    name: "Analysis and Systems Development",
+    description: "Faculdade Descomplica",
   },
   {
-    date: "May 2021 - Present",
+    date: "May 2021 - Apr 2023",
     logo: "/education/ufmg.png",
     name: "Aerospace Engineering",
     description: "Universidade Federal de Minas Gerais",
-  },
-  {
-    date: "Feb 2018 - Dec 2020",
-    logo: "/education/ifmg.png",
-    name: "IT",
-    description: "Instituto Federal de Minas Gerais",
   },
 ];
 
@@ -52,7 +46,7 @@ function Education() {
   };
 
   return (
-    <div className="fixed overflow-y-scroll w-full h-screen px-8 py-16 sm:p-16 md:p-24 lg:p-32 bg-background text-text text-sm">
+    <div className="relative w-full min-h-screen px-8 py-16 sm:p-16 md:p-24 lg:p-32 bg-background text-text text-sm">
       <header className="flex w-full h-12 items-center justify-between gap-8">
         <div className="hidden md:block">
           <Navigator input="B" handler={navigateBack}>
@@ -69,12 +63,12 @@ function Education() {
       </header>
       <main className="mt-16">
         <p className="max-w-[510px]">
-          I’m a self-taught. 🧑‍🎓
+          I&apos;m mainly a self-taught.
           <br />
           <br />
-          When it comes to programming, I just gave it a real go only a year
-          after joining Aerospace Engineering college... and fell in love with
-          it.
+          Altough I&apos;ve spent my whole life in front of computers, I just
+          gave programming a real go only a year after joining Aerospace
+          Engineering college (which I quit)... and fell in love with it.
           <br />
           <br />
           Here’s my relevant academic history + accomplishments.

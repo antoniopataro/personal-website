@@ -10,14 +10,23 @@ interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 function Button(props: Props) {
-  const { behaviour, children, external, handler, input, label, role } = props;
+  const {
+    behaviour,
+    children,
+    disabled,
+    external,
+    handler,
+    input,
+    label,
+    role,
+  } = props;
 
   if (behaviour === "navigator") {
     return (
       <button
-        disabled={props.disabled}
+        disabled={disabled}
         onClick={handler}
-        className="group flex items-center gap-4 cursor-default"
+        className="group flex items-center gap-4 cursor-default disabled:opacity-50"
       >
         <div className="flex items-center justify-center w-6 h-6 aspect-square outline-none ring-1 ring-text focus:ring-opacity-50 group-focus:ring-opacity-50 ring-opacity-20 rounded bg-white bg-opacity-10 transition-all group-hover:bg-opacity-0 hover:bg-opacity-0 cursor-default">
           <span className="text-xs">{input}</span>
@@ -41,7 +50,7 @@ function Button(props: Props) {
   return (
     <button
       {...props}
-      className="flex items-center justify-center w-6 h-6 aspect-square outline-none ring-1 ring-text focus:ring-opacity-50 ring-opacity-20 rounded bg-white bg-opacity-10 transition-all group-hover:bg-opacity-0 hover:bg-opacity-0 cursor-default"
+      className="flex items-center justify-center w-6 h-6 aspect-square outline-none ring-1 ring-text focus:ring-opacity-50 ring-opacity-20 rounded bg-white bg-opacity-10 transition-all group-hover:bg-opacity-0 hover:bg-opacity-0 cursor-default disabled:opacity-50"
     >
       {children}
     </button>

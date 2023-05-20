@@ -31,11 +31,11 @@ function Home() {
   };
 
   const navigateToAlgorithms = () => {
-    // Router.push("/algorithms");
+    window.open("https://leetcode.com/antoniopataro", "_blank", "noreferrer");
   };
 
   return (
-    <div className="fixed overflow-y-scroll w-full h-screen px-8 py-16 sm:p-16 md:p-24 lg:p-32 bg-background text-text text-sm">
+    <div className="relative w-full min-h-screen px-8 py-16 sm:p-16 md:p-24 lg:p-32 bg-background text-text text-sm">
       <header className="flex w-full items-center justify-between gap-8">
         <div className="flex w-full sm:w-fit items-center justify-between sm:justify-start gap-8">
           <div className="flex items-center gap-4">
@@ -105,34 +105,15 @@ function Home() {
           Hello! 👋
           <br />
           <br />
-          I&apos;m a passionate Front-End Dev. from{" "}
+          I&apos;m a passionate developer from{" "}
           <span className="text-green-500">Brazil</span> who&apos;s very
-          experienced at building modern, performatic and UX-first applications
-          for tech-oriented solutions - mainly, using ReactJS and Typescript.
+          experienced in building Typescript Fullstack (front-end-heavy) modern
+          applications with preciousness to detail.
           <br />
           <br />
-          I genuinely enjoy building stuff in small teams, hard-focusing on
-          solutions with preciousness to detail.
-          <br />
-          <br />
-          <span className="flex">
-            Currently working at&nbsp;
-            <a
-              href="https://lgpdok.com.br/"
-              target="_blank"
-              rel="noreferrer"
-              className="group flex gap-1 transition-all text-text hover:text-opacity-80 underline cursor-default"
-            >
-              Intelligix.
-              <Image
-                src="/icons/arrow.svg"
-                alt=""
-                width={12}
-                height={12}
-                className="pointer-events-none transition-transform group-hover:translate-x-px group-hover:-translate-y-px group-hover:opacity-80"
-              />
-            </a>
-          </span>
+          Despite that, I like to believe that behind-the-scenes awereness is
+          way more important than the technologies themselves. That&apos;s why I
+          don&apos;t stick to frameworks.
         </p>
         <nav className="mt-16 pb-16 border-b border-b-text border-opacity-10">
           <ul className="hidden md:flex w-fit items-center gap-8">
@@ -146,9 +127,9 @@ function Home() {
                 <Button behaviour="navigator" label="Education" />
               </Navigator>
             </li>
-            <li className="opacity-50 pointer-events-none">
+            <li>
               <Navigator input="A" handler={navigateToAlgorithms}>
-                <Button disabled behaviour="navigator" label="Algorithms" />
+                <Button behaviour="navigator" label="Algorithms" />
               </Navigator>
             </li>
           </ul>
