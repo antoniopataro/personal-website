@@ -6,6 +6,10 @@ import Navigator from "@components/Navigator";
 
 const projects = [
   {
+    colors: {
+      primary: "#437BD0",
+      secondary: "#145BC5",
+    },
     date: "Dec 2020",
     logo: "/projects/emsuma.png",
     name: "Em Suma",
@@ -14,6 +18,10 @@ const projects = [
     shortenUrl: "emsuma.com.br",
   },
   {
+    colors: {
+      primary: "#7D3392",
+      secondary: "#AE453A",
+    },
     date: "Nov 2022",
     logo: "/projects/eru.png",
     name: "Eru",
@@ -22,6 +30,10 @@ const projects = [
     shortenUrl: "eru.agency",
   },
   {
+    colors: {
+      primary: "#047AAC",
+      secondary: "#023D56",
+    },
     date: "Aug 2022",
     logo: "/projects/lgpdok.png",
     name: "LGPDOK",
@@ -66,6 +78,12 @@ function Projects() {
               onClick={() => window.open(project.url, "_blank")}
               className="relative group flex w-full items-center justify-between gap-8 px-4 py-8 rounded hover:ring-1 transition-colors hover:ring-text hover:ring-opacity-10 hover:bg-text hover:bg-opacity-10 after:content-[''] after:absolute after:right-0 after:bottom-0 after:w-[calc(100%-56px)] after:h-px after:bg-[#292929] after:opacity-1 hover:after:opacity-0 last:after:opacity-0"
             >
+              <span
+                className="absolute right-8 top-0 mx-auto h-px w-2/3 bg-red-500 opacity-0 transition-opacity content-[''] group-hover:opacity-50 -translate-y-px"
+                style={{
+                  background: `linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, ${project.colors.secondary} 30%, ${project.colors.primary} 60%, ${project.colors.secondary} 30%, rgba(0, 0, 0, 0) 98.93%)`,
+                }}
+              />
               <div className="flex items-center gap-4">
                 <Image
                   src={project.logo}
