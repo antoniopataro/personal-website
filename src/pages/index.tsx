@@ -111,8 +111,7 @@ function Home() {
           </p>
           <p>
             Although I enjoy working with frameworks like React and Express, I
-            wouldn&apos;t be able to sleep without behind-the-scenes awereness
-            is.
+            wouldn&apos;t be able to sleep without behind-the-scenes awereness.
           </p>
         </div>
         <nav className="mt-16 pb-16 border-b border-b-text border-opacity-10">
