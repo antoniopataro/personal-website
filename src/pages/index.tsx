@@ -101,20 +101,20 @@ function Home() {
         </div>
       </header>
       <main className="mt-16">
-        <p className="max-w-[510px]">
-          Hello! 👋
-          <br />
-          <br />
-          I&apos;m a passionate developer from{" "}
-          <span className="text-green-500">Brazil</span> who&apos;s very
-          experienced in building Typescript Fullstack (front-end-heavy) modern
-          applications with preciousness to detail.
-          <br />
-          <br />
-          Despite that, I like to believe that behind-the-scenes awereness is
-          way more important than the technologies themselves. That&apos;s why I
-          don&apos;t stick to frameworks.
-        </p>
+        <div className="flex flex-col max-w-[510px] gap-4">
+          <p>Hello! 👋</p>
+          <p>
+            I&apos;m a passionate developer from{" "}
+            <span className="text-green-500">Brazil</span> who&apos;s very
+            experienced in building Typescript Fullstack (front-end-heavy)
+            modern applications with preciousness to detail.
+          </p>
+          <p>
+            Although I enjoy working with frameworks like React and Express, I
+            wouldn&apos;t be able to sleep without behind-the-scenes awereness
+            is.
+          </p>
+        </div>
         <nav className="mt-16 pb-16 border-b border-b-text border-opacity-10">
           <ul className="hidden md:flex w-fit items-center gap-8">
             <li>
