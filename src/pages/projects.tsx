@@ -19,6 +19,17 @@ const projects = [
   },
   {
     colors: {
+      primary: "#047AAC",
+      secondary: "#023D56",
+    },
+    date: "Aug 2022",
+    logo: "/projects/lgpdok.png",
+    name: "LGPDOK",
+    url: "https://lgpdok.com.br",
+    shortenUrl: "lgpdok.com.br",
+  },
+  {
+    colors: {
       primary: "#7D3392",
       secondary: "#AE453A",
     },
@@ -28,17 +39,6 @@ const projects = [
     git: "https://github.com/antoniopataro/eru",
     url: "https://eru.agency",
     shortenUrl: "eru.agency",
-  },
-  {
-    colors: {
-      primary: "#047AAC",
-      secondary: "#023D56",
-    },
-    date: "Aug 2022",
-    logo: "/projects/lgpdok.png",
-    name: "LGPDOK",
-    url: "https://lgpdok.com.br",
-    shortenUrl: "lgpdok.com.br",
   },
 ];
 
