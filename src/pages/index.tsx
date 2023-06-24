@@ -106,13 +106,14 @@ function Home() {
           <p>
             I&apos;m a passionate developer from{" "}
             <span className="text-green-500">Brazil</span> who&apos;s very
-            experienced in building Typescript Fullstack (front-end-heavy)
-            modern applications with preciousness to detail.
+            experienced in building Typescript/Go Fullstack (front-end-heavy)
+            modern applications.
           </p>
           <p>
-            Although I enjoy working with frameworks like React and Express, I
-            wouldn&apos;t be able to sleep without behind-the-scenes awereness.
+            I have behind-the-scenes awereness, preciousness to detail, and lots
+            of curiosity.
           </p>
+          <p>I am adaptable, easygoing and always open to new challenges.</p>
         </div>
         <nav className="mt-16 pb-16 border-b border-b-text border-opacity-10">
           <ul className="hidden md:flex w-fit items-center gap-8">
