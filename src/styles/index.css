@@ -15,5 +15,9 @@ body {
 }
 
 ::selection {
-  background-color: #454545;
+  background-color: rgb(16, 185, 129, 25%);
+}
+
+.react-flow__edge {
+  pointer-events: none !important;
 }

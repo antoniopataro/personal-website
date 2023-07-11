@@ -1,0 +1,28 @@
+[
+  {
+    "author": {
+      "image": "/recommendations/sandro.jpg",
+      "name": "Sandro Welter",
+      "role": "Project Manager - managed me directly during my time on Intelligix."
+    },
+    "colors": {
+      "primary": "#f2dd44",
+      "secondary": "#cfb41b"
+    },
+    "message": "It is with great satisfaction that I recommend Antônio as a Front-end developer. During our time together at Intelligix, I witnessed his vibrant personality and his determination to learn and produce. Even without previous experience, Antônio evolved quickly, delivering quality projects using React.js and Typescript. In recent months, he has also shown skills in back-end development. A talented and dedicated professional, Antônio is an excellent addition to any team.",
+    "url": "https://www.linkedin.com/in/sandrowelter/"
+  },
+  {
+    "author": {
+      "image": "/recommendations/victor.jpg",
+      "name": "Victor Castro",
+      "role": "Back-End Developer - worked together during my time on Intelligix."
+    },
+    "colors": {
+      "primary": "#d7b1ab",
+      "secondary": "#d3cdd0"
+    },
+    "message": "I worked with Antônio for the period I spent at Intelligix, where he took care of the front end and I took care of the backend of the platform. We had daily contact to integrate everything that was needed. And in this period, I can say that he stands out for his teamwork and assertive communication, he has proactivity and effort, mastering all the necessary technical aspects. I learned a lot from him, and I hope that one day we can develop something again, a professional on the rise!",
+    "url": "https://www.linkedin.com/in/victorcastr/"
+  }
+]

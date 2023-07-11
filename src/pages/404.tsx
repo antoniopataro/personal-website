@@ -1,10 +1,8 @@
 import { useEffect, useState } from "react";
-
 import Image from "next/image";
 import Router from "next/router";
 
-import Button from "@components/Button";
-import Navigator from "@components/Navigator";
+import Layout from "@layouts/app.layout";
 
 function NotFound() {
   const [timer, setTimer] = useState(5);
@@ -26,51 +24,17 @@ function NotFound() {
   };
 
   return (
-    <div className="relative w-full min-h-screen p-32 bg-background text-text text-sm">
-      <header className="flex w-full h-12 items-center justify-between gap-8">
-        <Navigator input="B" handler={navigateBack}>
-          <Button behaviour="navigator" label="Back" />
-        </Navigator>
-      </header>
-      <main className="mt-16">
-        I was not able to find what you were looking for...
-        <br />
-        <br />
-        Redirecting you in {timer}.
-      </main>
-      <footer className="flex items-center gap-4 mt-16 pt-16 border-t border-text border-opacity-10">
-        <a
-          href="https://github.com/antoniopataro"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <Image
-            src="/social/github.svg"
-            alt=""
-            width={16}
-            height={16}
-            className="pointer-events-none"
-          />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/antoniopataro"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <Image
-            src="/social/linkedin.svg"
-            alt=""
-            width={16}
-            height={16}
-            className="pointer-events-none"
-          />
-        </a>
-        <span className="text-text text-opacity-50">
-          Antonio Pataro © {new Date().getFullYear()}
-        </span>
-      </footer>
+    <div className="relative w-full min-h-screen p-32 text-[#DADADA] text-sm">
+      <div className="flex flex-col max-w-[510px] gap-4">
+        <p>I was not able to find what you were looking for.</p>
+        <p>Redirecting you in {timer}.</p>
+      </div>
     </div>
   );
 }
+
+NotFound.getLayout = function getLayout(notFound: React.ReactElement) {
+  return <Layout>{notFound}</Layout>;
+};
 
 export default NotFound;

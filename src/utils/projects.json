@@ -1,0 +1,62 @@
+[
+  {
+    "colors": {
+      "primary": "#003362",
+      "secondary": "#00B0F5"
+    },
+    "contractType": "contract",
+    "date": "May 2023 - Jul 2023",
+    "logo": "/projects/ftd.jpg",
+    "name": "FTD",
+    "role": "Front-End Dev.",
+    "url": "https://ftd.com.br/"
+  },
+  {
+    "colors": {
+      "primary": "#047AAC",
+      "secondary": "#023D56"
+    },
+    "contractType": "full-time",
+    "date": "May 2023 - Jul 2023",
+    "logo": "/projects/lgpdok.png",
+    "name": "Intelligix",
+    "role": "Fullstack Dev.",
+    "url": "https://lgpdok.com.br"
+  },
+  {
+    "colors": {
+      "primary": "#047AAC",
+      "secondary": "#023D56"
+    },
+    "contractType": "full-time",
+    "date": "Aug 2022 - May 2023",
+    "logo": "/projects/lgpdok.png",
+    "name": "Intelligix",
+    "role": "Front-End Dev.",
+    "url": "https://lgpdok.com.br"
+  },
+  {
+    "colors": {
+      "primary": "#437BD0",
+      "secondary": "#145BC5"
+    },
+    "contractType": "personal-project",
+    "date": "Jun 2022",
+    "logo": "/projects/dona-clone.png",
+    "name": "Dona Clone",
+    "role": "Copycat",
+    "url": "https://antoniopataro.github.io/dona-clone/"
+  },
+  {
+    "colors": {
+      "primary": "#437BD0",
+      "secondary": "#145BC5"
+    },
+    "contractType": "self-employed",
+    "date": "Dec 2020",
+    "logo": "/projects/emsuma.png",
+    "name": "Em Suma",
+    "role": "Founder",
+    "url": "https://emsuma.com.br"
+  }
+]

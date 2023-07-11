@@ -1,0 +1,32 @@
+[
+  {
+    "colors": {
+      "primary": "#d7b1ab",
+      "secondary": "#d3cdd0"
+    },
+    "date": "Jan 2022",
+    "logo": "/education/obmep.png",
+    "name": "18th Bronze Medal",
+    "description": "The Brazilian Mathematical Olympiad of Public Schools"
+  },
+  {
+    "colors": {
+      "primary": "#d7b1ab",
+      "secondary": "#d3cdd0"
+    },
+    "date": "Dec 2019",
+    "logo": "/education/obmep.png",
+    "name": "Honorable Mention",
+    "description": "The Brazilian Mathematical Olympiad of Public Schools"
+  },
+  {
+    "colors": {
+      "primary": "#d7b1ab",
+      "secondary": "#d3cdd0"
+    },
+    "date": "Aug 2019",
+    "logo": "/education/iphco.png",
+    "name": "Silver Medal",
+    "description": "International Physics & Culture Olympiad"
+  }
+]

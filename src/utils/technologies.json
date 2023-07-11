@@ -1,0 +1,240 @@
+[
+  {
+    "edges": [
+      "javascript",
+      "typescript",
+      "vue",
+      "reactjs",
+      "reactnative",
+      "nextjs"
+    ],
+    "name": "HTML",
+    "img": "/technologies/html.svg",
+    "slug": "html",
+    "url": "https://developer.mozilla.org/pt-BR/docs/Web/HTML"
+  },
+  {
+    "edges": ["html"],
+    "name": "CSS",
+    "img": "/technologies/css.svg",
+    "slug": "css",
+    "url": "https://www.w3schools.com/css/"
+  },
+  {
+    "edges": [
+      "vue",
+      "reactjs",
+      "reactnative",
+      "nextjs",
+      "node",
+      "express",
+      "jest",
+      "vitest"
+    ],
+    "name": "Javascript",
+    "img": "/technologies/javascript.svg",
+    "slug": "javascript",
+    "url": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+  },
+  {
+    "edges": [
+      "vue",
+      "reactjs",
+      "reactnative",
+      "nextjs",
+      "node",
+      "express",
+      "jest",
+      "vitest"
+    ],
+    "name": "Typescript",
+    "img": "/technologies/typescript.svg",
+    "slug": "typescript",
+    "url": "https://www.typescriptlang.org/"
+  },
+  {
+    "edges": ["javascript", "typescript", "vue", "reactjs", "vitest"],
+    "name": "Vite",
+    "img": "/technologies/vite.svg",
+    "slug": "vite",
+    "url": "https://vitejs.dev/"
+  },
+  {
+    "edges": [],
+    "name": "Vue",
+    "img": "/technologies/vue.svg",
+    "slug": "vue",
+    "url": "https://vue.org/"
+  },
+  {
+    "edges": [],
+    "name": "React.js",
+    "img": "/technologies/reactjs.svg",
+    "slug": "reactjs",
+    "url": "https://reactjs.org/"
+  },
+  {
+    "edges": [],
+    "name": "React Native",
+    "img": "/technologies/reactnative.svg",
+    "slug": "reactnative",
+    "url": "https://reactnative.dev/"
+  },
+  {
+    "edges": [],
+    "name": "Next.js",
+    "img": "/technologies/nextjs.svg",
+    "slug": "nextjs",
+    "url": "https://nextjs.org/"
+  },
+  {
+    "edges": ["aws"],
+    "name": "Docker",
+    "img": "/technologies/docker.svg",
+    "slug": "docker",
+    "url": "https://www.docker.com/"
+  },
+  {
+    "edges": [
+      "aws",
+      "express",
+      "mongodb",
+      "mysql",
+      "postgresql",
+      "prisma",
+      "redis",
+      "graphql",
+      "nestjs"
+    ],
+    "name": "Node",
+    "img": "/technologies/node.svg",
+    "slug": "node",
+    "url": "https://nodejs.org/"
+  },
+  {
+    "edges": ["nestjs"],
+    "name": "Express",
+    "img": "/technologies/express.svg",
+    "slug": "express",
+    "url": "https://expressjs.com/"
+  },
+  {
+    "edges": [],
+    "name": "Nest.js",
+    "img": "/technologies/nestjs.svg",
+    "slug": "nestjs",
+    "url": "https://nestjs.com/"
+  },
+  {
+    "edges": ["docker"],
+    "name": "MongoDB",
+    "img": "/technologies/mongodb.svg",
+    "slug": "mongodb",
+    "url": "https://www.mongodb.com/"
+  },
+  {
+    "edges": ["docker"],
+    "name": "PostgreSQL",
+    "img": "/technologies/postgresql.svg",
+    "slug": "postgresql",
+    "url": "https://www.postgresql.org/"
+  },
+  {
+    "edges": ["docker"],
+    "name": "MySQL",
+    "img": "/technologies/mysql.svg",
+    "slug": "mysql",
+    "url": "https://www.mysql.com/"
+  },
+  {
+    "edges": [],
+    "name": "Prisma",
+    "img": "/technologies/prisma.svg",
+    "slug": "prisma",
+    "url": "https://www.prisma.io/"
+  },
+  {
+    "edges": [],
+    "name": "Git",
+    "img": "/technologies/git.svg",
+    "slug": "git",
+    "url": "https://git-scm.com/"
+  },
+  {
+    "edges": [],
+    "name": "Python",
+    "img": "/technologies/python.svg",
+    "slug": "python",
+    "url": "https://www.python.org/"
+  },
+  {
+    "edges": ["css"],
+    "name": "Figma",
+    "img": "/technologies/figma.svg",
+    "slug": "figma",
+    "url": "https://www.figma.com/"
+  },
+  {
+    "edges": [],
+    "name": "Jest",
+    "img": "/technologies/jest.svg",
+    "slug": "jest",
+    "url": "https://jestjs.io/"
+  },
+  {
+    "edges": [],
+    "name": "Vitest",
+    "img": "/technologies/vitest.svg",
+    "slug": "vitest",
+    "url": "https://vitest.dev/"
+  },
+  {
+    "edges": ["html", "css"],
+    "name": "Tailwind",
+    "img": "/technologies/tailwind.svg",
+    "slug": "tailwind",
+    "url": "https://tailwindcss.com/"
+  },
+  {
+    "edges": [],
+    "name": "GraphQL",
+    "img": "/technologies/graphql.svg",
+    "slug": "graphql",
+    "url": "https://graphql.org/"
+  },
+  {
+    "edges": ["aws", "node"],
+    "name": "Redis",
+    "img": "/technologies/redis.svg",
+    "slug": "redis",
+    "url": "https://redis.io/"
+  },
+  {
+    "edges": [],
+    "name": "AWS",
+    "img": "/technologies/aws.svg",
+    "slug": "aws",
+    "url": "https://aws.amazon.com/"
+  },
+  {
+    "edges": [],
+    "name": "R",
+    "img": "/technologies/r.svg",
+    "slug": "r",
+    "url": "https://www.r-project.org/"
+  },
+  {
+    "edges": [],
+    "name": "MATLAB",
+    "img": "/technologies/matlab.svg",
+    "slug": "matlab",
+    "url": "https://www.mathworks.com/products/matlab.html/"
+  },
+  {
+    "edges": ["aws", "typescript", "node"],
+    "name": "Golang",
+    "img": "/technologies/golang.svg",
+    "slug": "golang",
+    "url": "https://go.dev/"
+  }
+]
