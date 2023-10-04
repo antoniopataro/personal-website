@@ -5,9 +5,9 @@
       "secondary": "#00B0F5"
     },
     "contractType": "contract",
-    "date": "May 2023 - Jul 2023",
+    "date": "May 2023",
     "logo": "/projects/ftd.jpg",
-    "name": "FTD",
+    "name": "FTD Educação",
     "role": "Front-End Dev.",
     "url": "https://ftd.com.br/"
   },
@@ -34,18 +34,6 @@
     "name": "Intelligix",
     "role": "Front-End Dev.",
     "url": "https://lgpdok.com.br"
-  },
-  {
-    "colors": {
-      "primary": "#437BD0",
-      "secondary": "#145BC5"
-    },
-    "contractType": "personal-project",
-    "date": "Jun 2022",
-    "logo": "/projects/dona-clone.png",
-    "name": "Dona Clone",
-    "role": "Copycat",
-    "url": "https://antoniopataro.github.io/dona-clone/"
   },
   {
     "colors": {
