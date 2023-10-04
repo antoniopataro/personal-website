@@ -143,12 +143,9 @@ function Home() {
             Hello! <span className="inline-block animate-wave">👋</span>
           </p>
           <p>
-            I&apos;m a passionate developer from{" "}
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-emerald-600">
-              Brazil
-            </span>{" "}
-            who&apos;s very experienced in building Typescript/Go Fullstack
-            (front-end-heavy) modern applications with preciousness to detail.
+            I&apos;m a programmer with a short but intense career when it comes to
+            web development (front-end-heavy). Most of my work involves working
+            with <span className="bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-emerald-600">Typescript</span> and <span className="bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-emerald-600">Go.</span>
           </p>
           <p>I am adaptable, easygoing and always open to new challenges.</p>
         </div>
