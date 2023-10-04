@@ -225,6 +225,13 @@
   },
   {
     "edges": [],
+    "name": "SciDAVis",
+    "img": "/technologies/scidavis.svg",
+    "slug": "r",
+    "url": "https://scidavis.sourceforge.net/"
+  },
+  {
+    "edges": [],
     "name": "MATLAB",
     "img": "/technologies/matlab.svg",
     "slug": "matlab",
