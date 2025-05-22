@@ -2,8 +2,16 @@
 
 @theme inline {
   --color-background: var(--background);
+  --color-border: var(--border);
+  --color-muted: var(--muted);
+  --color-sober: var(--sober);
+  --text-sm: 0.8125rem;
+  --text-base: 0.9375rem;
 }
 
 :root {
   --background: #fafafa;
+  --border: #cfcfcf;
+  --muted: #5a5c5e;
+  --sober: #1b1c1d;
 }
